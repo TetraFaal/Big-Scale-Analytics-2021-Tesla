@@ -22,7 +22,7 @@ Different tools are used for this project :
 
 ## Repository organisation 🗂
 Here's how the repo is organized :
-- Data : you'll find [here](https://docs.google.com/spreadsheets/d/1oQGKQZLj6JRbgY-ZQLfClUsq-AHA8LIegtSZvxw6s6A/edit#gid=1203710396) all the data we're using for the project
+- Data : you'll find [here](https://docs.google.com/spreadsheets/d/1oQGKQZLj6JRbgY-ZQLfClUsq-AHA8LIegtSZvxw6s6A/edit#gid=1203710396) all of the 1181 sentences that composes our  data for the project
 - Code : the python notebooks containing our code
 - Ressources : our [litterature](https://github.com/TetraFaal/Big-Scale-Analytics-2021-Tesla/tree/main/Ressources) review on the subject and usefull ressources
 
