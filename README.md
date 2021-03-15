@@ -28,4 +28,15 @@ Here's how the repo is organized :
 
 ## Methodology :mag:
 
+- Gather existing informations and scientific articles on the subject :white_check_mark:
+- Build and labelize a dataset containing french sentences :white_check_mark:
+- Look for complete datasets with labelized french words and define the weight of each word
+- Deal with cognates
+- Build a first algorithm
+- Try the algorithm on our dataset
+- Train the model
+- Adapt/ change the model
+- Build a user interface
+
+
 The project is iterative, this repository is meant to evolve regulary 
