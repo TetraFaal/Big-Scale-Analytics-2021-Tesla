@@ -26,4 +26,6 @@ Here's how the repo is organized :
 - Code : the python notebooks containing our code
 - Ressources : our [litterature](https://github.com/TetraFaal/Big-Scale-Analytics-2021-Tesla/tree/main/Ressources) review on the subject and usefull ressources
 
+## Methodology :mag:
+
 The project is iterative, this repository is meant to evolve regulary 
