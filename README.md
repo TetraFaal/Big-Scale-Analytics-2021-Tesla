@@ -1,4 +1,5 @@
-# Big-Scale-Analytics-2021-Tesla
+# Big-Scale-Analytics-2021-Tesla ![image](https://user-images.githubusercontent.com/61697398/114184075-ae896d80-9944-11eb-9c85-7088d4b0e929.png)
+
 # Text Analytics : Prediction Of French Sentences' CEFR Level
 Tesla Group's repository for the course project "Big Scale Analytics 2021" (University of Lausanne)
 
