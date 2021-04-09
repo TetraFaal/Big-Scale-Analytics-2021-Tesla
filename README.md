@@ -3,9 +3,19 @@
 Tesla Group's repository for the course project "Big Scale Analytics 2021" (University of Lausanne)
 
 This projects aims to predict the CEFR level of a sentence in a foreign language (here French) based on machine learning techniques.
+## Group member 🧍🧍🧍
+- Adrian Sestan
+- Igor Ranisavljevic
+- Hugo Macedo Candido
 
 ## The Idea (project description) 📜
 To improve one’s skills in a new foreign language, it is important to read texts in that language. These text have to be at the reader’s language level. However, it is difficult to find texts that are close to someone’s knowledge level (A1 to C2). The idea is to build a model for English speakers that predicts the difficulty of a French written text. This can be then used, e.g., in a recommendation system, to recommend texts (for example, recent news articles) that are appropriate for someone’s language level. If someone is at A1 French level, it is inappropriate to present a text at B2 level, as she won’t be able to understand it. Ideally, a text should have many known words and may have a few words that are unknown so that the person can improve.
+
+In order to learn more about the subject, we consulted various research sources including the same objectives such as :
+- Word lists in Reference Level Descriptions of CEFR (Common European Framework of Reference for Languages): https://euralex.org/wp-content/themes/euralex/proceedings/Euralex%202012/pp328-335%20Marello.pdf
+- Duolingo's blog on the use of AI for adapting learning content based on CEFR level: https://blog.duolingo.com/the-duolingo-cefr-checker-an-ai-tool-for-adapting-learning-content/
+- Duolingo's CEFR checker (what we're aiming to, but in french): https://cefr.duolingo.com/
+- English vocabulary profile (the english equivalent of what we need to build our model): https://www.englishprofile.org/wordlists/evp
 
 ## Milestones & Goals 🎯
 The project is separated in three main milestones :
@@ -14,6 +24,19 @@ The project is separated in three main milestones :
 3. Evaluating how good the model is
 
 The final goal is to provide an API with an UI wich returns the level of a given french sentence.
+
+## Data 📊
+In order to create our dataset, we had to find specific ressources that are a reference in the labeling of french language. We have used several sources such as grammar exercises, french language learning websites and sources provided by teachers. After collecting 1000 sentences, we objectively assessed their levels under different selection criteria like words, verbs, cognats, grammar and expressions difficulties. 
+
+### Number of sentences per level :
+- A1 : 221
+- A2 : 259
+- B1 : 189
+- B2 : 161
+- C1 : 183
+- C2 : 160
+
+Sources : https://french.kwiziq.com/learn/reading, https://lingua.com/french/reading/vie/, https://www.podcastfrancaisfacile.com/niveau-delf-b2, https://cdn.scribbr.com/wp-content/uploads/2018/11/Exemple-de-dissertation-de-philosophie.docx, https://la-philosophie.com/exemple-dissertation-philosophique 
 
 ## Tools 🛠
 Different tools are used for this project :
