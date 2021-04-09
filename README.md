@@ -16,6 +16,8 @@ In order to learn more about the subject, we consulted various research sources 
 - Duolingo's blog on the use of AI for adapting learning content based on CEFR level: https://blog.duolingo.com/the-duolingo-cefr-checker-an-ai-tool-for-adapting-learning-content/
 - Duolingo's CEFR checker (what we're aiming to, but in french): https://cefr.duolingo.com/
 - English vocabulary profile (the english equivalent of what we need to build our model): https://www.englishprofile.org/wordlists/evp
+- Machine Learning for learner English, April 2020, International Journal of Learner Corpus Research: https://www.researchgate.net/publication/339736712_Machine_learning_for_learner_English_A_plea_for_creating_learner_data_challenges
+- Rule-based and machine learning approaches for second language sentence-level readability, June 2014,  9th Workshop on Innovative Use of NLP for Building Educational Applications: https://www.researchgate.net/publication/263057662_Rule-based_and_machine_learning_approaches_for_second_language_sentence-level_readability
 
 ## Milestones & Goals 🎯
 The project is separated in three main milestones :
