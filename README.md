@@ -64,6 +64,7 @@ Here's how the repo is organized :
 - Gather existing informations and scientific articles on the subject :white_check_mark:
 - Build and labelize a dataset containing french sentences :white_check_mark:
 - Look for complete datasets with labelized french words and define the weight of each word
+- - Upload our data on AutoML (Google Cloud)
 - Deal with cognates
 - Build a first algorithm
 - Try the algorithm on our dataset
