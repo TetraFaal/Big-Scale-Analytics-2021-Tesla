@@ -36,7 +36,7 @@ In order to create our dataset, we had to find specific ressources that are a re
 - C1 : 183
 - C2 : 160
 
-Sources : https://french.kwiziq.com/learn/reading, https://lingua.com/french/reading/vie/, https://www.podcastfrancaisfacile.com/niveau-delf-b2, https://cdn.scribbr.com/wp-content/uploads/2018/11/Exemple-de-dissertation-de-philosophie.docx, https://la-philosophie.com/exemple-dissertation-philosophique 
+Website sources : https://french.kwiziq.com/learn/reading, https://lingua.com/french/reading/vie/, https://www.podcastfrancaisfacile.com/niveau-delf-b2, https://cdn.scribbr.com/wp-content/uploads/2018/11/Exemple-de-dissertation-de-philosophie.docx, https://la-philosophie.com/exemple-dissertation-philosophique 
 
 ## Tools 🛠
 Different tools are used for this project :
