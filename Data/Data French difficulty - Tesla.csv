@@ -2,7 +2,7 @@ Text,Difficulty,Difficulty Annotator 1,Difficulty Annotator 2,Difficulty Annotat
 " Pour moi, c'était un cadeau de rêve
 ",A1,A2,A1,A2
 "A Barcelone, mes parents ont réservé un appartement près de la plage",A1,A1,A2,A1
-À quelle heure on part ?,A1,A1,A1,A2
+À quelle heure on part ,A1,A1,A1,A2
 "Ainsi, Pierre a le privilège d'admirer chaque jour l'un des monuments les plus visités au monde",A1,A1,A1,A1
 Allumez votre téléphone mobile,A1,A1,A2,A1
 "Après avoir bu une tasse de thé dans un café, je rentre chez moi en bus",A1,A1,A2,A1
@@ -22,7 +22,7 @@ C’est aussi le moment idéal pour profiter de l’eau et aller nager à la mer
 "C’est la saison la plus chaude, pendant laquelle on recommence à mettre ses lunettes de soleil et à aller se promener sur la plage",A1,A2,A1,A1
 C’est le moment de sortir son manteau et son parapluie,A1,A1,A2,A1
 C’est ma meilleure amie,A1,A2,A1,A1
-ça me donne faim tout ça !,A1,A2,A1,A1
+ça me donne faim tout ça ,A1,A2,A1,A1
 Ce magasin n'est pas loins de chez moi,A1,A1,A1,A2
 "Ce n'est pas étonnant, car c'est une saison mystérieuse",A1,A1,A1,A1
 Ce sont des vacances très relaxantes,A1,A2,A1,A2
@@ -43,7 +43,7 @@ Elle fait des bons gâteaux,A1,A2,A1,A1
 Elle passe aussi à la boulagerie et elle achète une baguette toute chaude et des croissants pour le petit-déjeuner,A1,A2,A1,A2
 "Elles m’ont promis de me faire découvrir tout Londres : nous visiterons les musées, les monuments et les parcs",A1,A2,A1,A1
 Elles sont sympathiques,A1,A1,A1,A1
-"En général, c'est à ce moment-là que je me rends compte que je suis en retard !",A1,A1,A1,A1
+"En général, c'est à ce moment-là que je me rends compte que je suis en retard ",A1,A1,A1,A1
 "En général, elle loue une maison à la campagne",A1,A2,A1,A1
 "En les mélangeant, on peut former d’autres couleurs",A1,A2,A1,A1
 "Enfin, l’été arrive à la fin du mois de juin",A1,A1,A2,A1
@@ -52,7 +52,7 @@ Elles sont sympathiques,A1,A1,A1,A1
 "Entre les deux, il y a le gris : c’est un mélange de blanc et de noir",A1,A2,A1,A1
 "Et bien sûr, c'est également la saison parfaite pour savourer une boisson chaude emmitouflée dans une couverture devant un bon feu de cheminée",A1,A1,A1,A1
 "Et bien sûr, nous irons faire du shopping à Oxford Street et dans le quartier de Covent Garden",A1,A1,A1,A1
-"Fais vite, le film commence dans 10 minutes !",A1,A1,A2,A1
+"Fais vite, le film commence dans 10 minutes ",A1,A1,A2,A1
 Geoffrey adore son béret bleu foncé,A1,A2,A1,A1
 Il a rendez-vous chez le médecin,A1,A1,A2,A1
 Il est 17h,A1,A1,A2,A1
@@ -184,27 +184,27 @@ Nous vivons dans une jolie maison avec un grand jardin,A1,A1,A1,A1
 On achète des médicaments,A1,A1,A2,A1
 On fait réparer ses chaussures,A1,A1,A1,A2
 On fait soigner ses dents,A1,A1,A1,A2
-On mange à 20 Heures ou plus tard ?,A1,A1,A2,A1
+On mange à 20 Heures ou plus tard ,A1,A1,A2,A1
 On mange des crêpes,A1,A1,A2,A1
 "On peut encore se promener dans les bois, et admirer toutes les couleurs chaleureuses comme le rouge, l'orange et le jaune ",A1,A2,A1,A2
 On reçoit des soins esthétiques,A1,A1,A1,A2
-Où je peux acheter un billet de train ? ,A1,A1,A2,A1
+Où je peux acheter un billet de train  ,A1,A1,A2,A1
 "Oui, cher journal, c'est décidé, lundi prochain, je mettrai mon réveil plus tôt",A1,A1,A1,A1
 "Par exemple, les bus sont rouges et certaines stations de métro semblent très anciennes",A1,A1,A1,A1
 "Parfois, comme ca matin, il me reste des croissants du weekend, sinon je mange des biscottes beurrées",A1,A1,A1,A1
 "Parfois, elle fait une bonne tarte aux fruits et elle invite des amis pour le goûter",A1,A1,A1,A1
 Pas de fête avec vous ce soir,A1,A1,A1,A2
 Peut-être que je devrais avancer un peu mon réveil pour éviter ça,A1,A2,A1,A1
-"Peux-tu me donner l'heure du déjeuner, la date et l'adresse de ton appartement ?",A1,A1,A2,A1
+"Peux-tu me donner l'heure du déjeuner, la date et l'adresse de ton appartement ",A1,A1,A2,A1
 Pierre est un jeune garçon de 14 ans,A1,A1,A1,A1
 "Potirons, chataîgnes, courges, pommes mais aussi des épices délicieuses comme la cannelle, la noix et le gingembre",A1,A2,A1,A2
 "Pour gagner du temps, achetez votre billet de train sur notre site internet",A1,A1,A2,A1
 "Pour se déplacer, il y a des bus, des vélos et un métro",A1,A1,A1,A1
 "Pour se rendre au collège, Pierre prend le métro à la station Ecole Militaire et sort au collège Claude Debussy",A1,A1,A1,A2
-Pourrais-tu m'accompagner ?,A1,A1,A2,A1
+Pourrais-tu m'accompagner ,A1,A1,A2,A1
 Prends ton maillot de bain,A1,A1,A2,A1
-Qu'est-ce que tu fais pour les vacances cette année ?,A1,A1,A2,A1
-Qu'est-ce que tu vas faire l'année prochaine ?,A1,A1,A1,A2
+Qu'est-ce que tu fais pour les vacances cette année ,A1,A1,A2,A1
+Qu'est-ce que tu vas faire l'année prochaine ,A1,A1,A1,A2
 Rafael est très accueillant et il prépare des pâtes délicieuse,A1,A1,A1,A2
 Salue tes parents de ma part,A1,A1,A2,A1
 Son appartement est loin de l’Université,A1,A1,A2,A1
@@ -213,26 +213,26 @@ Tapez votre message sur les touches de votre téléphone,A1,A1,A2,A1
 "Tous les quatre en profitent pour visiter les musées parisiens, aller au cinéma, faire du shopping, ou se balader dans l'un des nombreux parcs de la capitale",A1,A2,A1,A1
 "Toute la petite famille apprécie alors l'air pur, la nature et le calme pendant quelques semaines avant de rentrer à Paris",A1,A1,A2,A1
 Toute la petite famille habite dans un grand appartement au 3ème étage d'un immeuble situé près de la Tour Eiffel,A1,A2,A1,A1
-Tu as des nouvelles de Paul ?,A1,A1,A2,A1
-Tu as vu mes soeurs ?,A1,A1,A2,A1
+Tu as des nouvelles de Paul ,A1,A1,A2,A1
+Tu as vu mes soeurs ,A1,A1,A2,A1
 Tu es un vrai chef cuisinier,A1,A1,A2,A1
 Tu me manques beaucoup,A1,A2,A1,A1
-Tu viens en vacances au ski avec nous cet hivers ?,A1,A1,A2,A1
+Tu viens en vacances au ski avec nous cet hivers ,A1,A1,A2,A1
 Un saison parfaite pour les sorcières,A1,A2,A1,A1
 Violette porte ses lunettes très chouettes,A1,A2,A1,A2
 Vivement demain,A1,A2,A1,A1
 " En plus, il y avait le grand parasol qui prenait toute la place
 ",A2,A2,A2,B1
-" Et puis surtout, j'attendais ton arrivée!
+" Et puis surtout, j'attendais ton arrivée
 ",A2,B1,A2,B1
-" Ils faisaient aussi la course sur la plage, et Louis gagnait souvent, parce qu'il était le plus rapide !
+" Ils faisaient aussi la course sur la plage, et Louis gagnait souvent, parce qu'il était le plus rapide 
 ",A2,B1,A2,B1
  Ils nageaient jusqu'à la bouée puis revenaient aussi vite que possible,A2,B1,A2,A2
 " Je pouvais faire autant de bruit que je voulais
 ",A2,A2,A2,A2
 " Mais pas de maison de poupées
 ",A2,A2,A2,A2
-" Mon grand frère Louis était très paresseux: il n'aidait jamais!
+" Mon grand frère Louis était très paresseux: il n'aidait jamais
 ",A2,B1,A2,A2
 " Nous nous installions dans la maison de vacances, puis nous prenions l'apéritif avec les voisins",A2,A2,A2,B1
 " Nous passions les grandes vacances à Valras, dans le sud de la France
@@ -245,7 +245,7 @@ Vivement demain,A1,A2,A1,A1
 "A l’intérieur de ma maison, il y a un grand salon avec une table et quatre chaises pour accueillir mes amis",A2,B1,A2,A2
 "À midi, c’est l’heure de déjeuner",A2,B1,B1,A2
 "Adolescent, je voulais devenir pompier",A2,B1,B1,A2
-Alors le Salon du Chocolat est l'événement à ne pas manquer !,A2,B1,A2,A2
+Alors le Salon du Chocolat est l'événement à ne pas manquer ,A2,B1,A2,A2
 "Après son repas, il retourne à la salle de bain pour se brosser les dents et pour aller aux toilettes",A2,B1,A2,A2
 "Au début, ça a été très compliqué à mettre en place en fin de compte",A2,B1,A2,B1
 "Au moment de payer, notre petit garçon est toujours volontaire",A2,B1,B1,A2
@@ -254,7 +254,7 @@ Alors le Salon du Chocolat est l'événement à ne pas manquer !,A2,B1,A2,A2
 "Autour du chef David Le Quellec, vingt-cinq cuisiniers préparent les trois menus différents du jour",A2,A2,A2,A2
 "Avec 600 repas à servir en une heure, aucune place à l'improvisation",A2,B1,A2,B1
 "Avec deux jeunes mecs encore en fac, qui chantent tous les soirs au Caveau de la Bolec",A2,A2,A2,A2
-Avez-vous des déclarations à faire à ce sujet?,A2,A2,A2,B1
+Avez-vous des déclarations à faire à ce sujet,A2,A2,A2,B1
 C'est dans cette station balnéaire de Normandie qu'a lieu chaque année depuis 1975 le Festival du Cinéma Américain,A2,B1,A2,B1
 C'est notre petite tradition à nous cinq,A2,A2,B1,A2
 C'est parce qu'il n'aimait pas les plats de la cantine,A2,B1,B1,A2
@@ -264,7 +264,7 @@ C’est ici que je cuisine des gâteaux et des pâtisseries,A2,B1,A2,A2
 C’est le plat préféré de Manon,A2,B1,B1,A2
 C’est une fête chrétienne qui célèbre la naissance de Jésus,A2,B1,B1,A2
 "Ce jour-là, on offre traditionnellement du muguet, une petite fleur blanche, à ses proches",A2,B1,B1,A2
-Ce qui devait être une tâche facile se complique quand l'une des filles du gendarme s'avère être une des nudistes !,A2,B1,A2,A2
+Ce qui devait être une tâche facile se complique quand l'une des filles du gendarme s'avère être une des nudistes ,A2,B1,A2,A2
 Ce rendez-vous des gourmands et des passionnés de chocolat a lieu tous les ans entre fin octobre et début novembre à Paris,A2,B1,A2,B1
 "Ce sont des jours fériés, c’est-à-dire des jours pendant lesquels on ne travaille pas",A2,B1,B1,A2
 Ce sont elles qui les comptent et les mettent dans notre panier,A2,B1,B1,A2
@@ -272,7 +272,7 @@ Certaines fêtes sont civiles et d’autre sont d’origine religieuses,A2,A2,A2
 "Chaque jour, Alice se lève vers six heures et prend un petit-déjeuner composé de pain, de fromage et d’œufs",A2,B1,A2,A2
 "Chaque soir, j’accompagne ma mère en vélo pour faire une promenade dans le parc avec notre chien Snowy",A2,B1,A2,A2
 Clément et Manon ont très faim et la pendule du salon sonne midi,A2,A2,A2,A2
-Comment tu as trouvé le repas de ce midi ? ,A2,A2,B1,A2
+Comment tu as trouvé le repas de ce midi  ,A2,A2,B1,A2
 "Côté magasins, on peut trouver de tout dans un centre commercial : hypermarchés pour faire ses courses, boutiques de vêtements et de sport, librairies, etc",A2,B1,A2,A2
 "David, lui, va à l’école le mercredi matin",A2,B1,A2,A2
 De longues heures s’enchaînent pendant lesquelles Alice et ses camarades apprennent de nouvelles choses,A2,B1,B1,A2
@@ -293,20 +293,20 @@ Elle vient avec son mari et mes cousins Lionel et Marcel,A2,A2,B1,A2
 "En effet, même si vous ne souhaitez pas acheter quelque chose, il est toujours intéressant de passer du temps dans les centres commerciaux",A2,B1,A2,A2
 "En été comme en hiver, les gens se bousculent dans ces endroits fantastiques remplis de boutiques variées et d'animations diverses",A2,A2,B1,A2
 "En France, il y a au total 11 fêtes pendant l’année",A2,B1,B1,A2
-"Et toi, quand est-ce que tu rentres à Tours ?",A2,B1,A2,B1
+"Et toi, quand est-ce que tu rentres à Tours ",A2,B1,A2,B1
 "Étranger, toujours :À Paris, Jacques Chirac a remis un chèque aux jeunes de la fac de I'ESSEC",A2,A2,A2,A2
 "Hier, je suis allé au cinema",A2,A2,B1,A2
 "Ici, il fait beau et chaud",A2,B1,A2,A2
 Il a un appartement,A2,A2,B1,A2
-Il agite son petit nez rose quand il me voit ! Ma grand-mère fait des gâteaux tous les jours,A2,B1,A2,B1
+Il agite son petit nez rose quand il me voit  Ma grand-mère fait des gâteaux tous les jours,A2,B1,A2,B1
 "Il doit étudier et écrire pendant quatre heures le matin et il ne peut se reposer que vingt minutes au moment de la récréation, à dix heures du matin",A2,B1,A2,A2
 Il doit se dépêcher pour ne pas être en retard à l’école,A2,A2,B1,A2
-Il est interdit de fumer !,A2,A2,B1,A2
+Il est interdit de fumer ,A2,A2,B1,A2
 "Il est intéressant de noter que jusqu'en 1995, le Festival de Deauville n'était pas compétitif",A2,A2,A2,B1
-Il faisait toujours très beau et surtout très chaud!,A2,B1,A2,B1
+Il faisait toujours très beau et surtout très chaud,A2,B1,A2,B1
 Il fait très beau ,A2,A2,A2,B1
 Il faut alors prendre le métro durant vingt minutes avant d'arriver devant l'école,A2,B1,A2,A2
-"Il faut du temps et du courage pour soigner toute cette ménagerie! En plus des animaux, il faut aussi s'occuper du potager de mon papy",A2,B1,A2,A2
+"Il faut du temps et du courage pour soigner toute cette ménagerie En plus des animaux, il faut aussi s'occuper du potager de mon papy",A2,B1,A2,A2
 Il n'aime pas donner les billets de vingt ou de cinquante euros,A2,B1,A2,A2
 Il pensait qu'un chef pouvait manger des pizzas et des frites tous les jours,A2,B1,B1,A2
 Il pleurait à chaque fois,A2,B1,B1,A2
@@ -324,7 +324,7 @@ Ils décident d’aller au marché pour acheter les ingrédients qu’ils vont c
 Ils ont des étoiles plein les yeux,A2,B1,A2,B1
 Ils ont deux enfants : un fils qui s’appelle André et une fille qui est très gentille,A2,B1,A2,A2
 Ils prennent donc leur voiture rouge et conduisent jusqu’à la place du village,A2,A2,A2,A2
-"Ils sont trop mignons ! Mon préféré est noir et blanc, et il s'appelle",A2,A2,A2,A2
+"Ils sont trop mignons  Mon préféré est noir et blanc, et il s'appelle",A2,A2,A2,A2
 Ils vont cuisiner une quiche lorraine pour le repas,A2,A2,A2,A2
 J'adore la cuisine ici,A2,A2,B1,A2
 "J'adore passer du temps avec connaît le nom des plantes, et il sait reconnaître les champignons comestibles",A2,B1,A2,B1
@@ -357,7 +357,7 @@ Je peins des tableaux dans mon studio,A2,B1,B1,A2
 Je suis bien arrivé à Londres,A2,A2,B1,A2
 Je t'ai attendu 1 heure devant le cinéma dans le froid,A2,A2,B1,A2
 Je t'écris de chez mes grands-parents à l'Aigle en Normandie où je passe de super vacances depuis maintenant une semaine,A2,A2,B1,A2
-"Je te dis à très bientôt pour une rentrée des classes en pleine forme! Le matin, Théo se lève à six heures",A2,B1,B1,A2
+"Je te dis à très bientôt pour une rentrée des classes en pleine forme Le matin, Théo se lève à six heures",A2,B1,B1,A2
 Je te donne ma réponse demain,A2,A2,A2,B1
 Je te propose un rendez-vous à 20 heures au bar,A2,A2,B1,A2
 Je te téléphone à mon retour à Paris,A2,A2,B1,A2
@@ -379,13 +379,13 @@ La journée est longue pour lui,A2,A2,B1,A2
 La journée n’est pas fini pour Théo qui doit rentrer à la maison pour faire ses devoirs,A2,B1,B1,A2
 La langue anglaise crée environ 20000 nouveaux mots chaque année,A2,A2,B1,A2
 "La pollution, je dis non, mais à la vie je dis oui, oui",A2,B1,A2,B1
-La route était longue entre Paris et Valras: le voyage durait environ six heures!,A2,B1,A2,A2
+La route était longue entre Paris et Valras: le voyage durait environ six heures,A2,B1,A2,A2
 "La semaine, je me lève à six heures du matin et mon mari à huit heures",A2,B1,B1,A2
 Le 14 juillet est la fête nationale française,A2,B1,B1,A2
 Ma nouvelle maison est blanche avec des volets bleus et des fleurs rouges,A2,B1,B1,A2
 Ma sœur ainée a 14 ans,A2,B1,A2,A2
 Ma tante Marcelline habite près de chez eux,A2,B1,B1,A2
-mais aussi des fraisiers : je me régale et je fais le plein de vitamines! J'espère que tu passes de bonnes vacances à Limoges,A2,B1,A2,A2
+mais aussi des fraisiers : je me régale et je fais le plein de vitamines J'espère que tu passes de bonnes vacances à Limoges,A2,B1,A2,A2
 Mais la musique m'a donné mal à la tête,A2,A2,B1,A2
 Mais le marché est loin de leur maison et ils ne peuvent pas y aller à pied,A2,B1,B1,A2
 Mais le monde ne fonctionne pas toujours ainsi,A2,A2,A2,A2
@@ -399,12 +399,12 @@ On partait de bonne heure pour ne pas être coincés dans les embouteillages,A2,
 "Pendant les grandes vacances, nous allons à la campagne chez mes grands-parents",A2,B1,A2,A2
 "Pendant que la salle se remplit petit à petit, un étage en-dessous, c'est l'effervescence",A2,B1,A2,B1
 "Pendant une heure et demie, Théo peut penser à autre chose qu’à l’école et s’amuser avec ses amis",A2,A2,B1,A2
-Pile au moment où on a le plus besoin de réconfort !,A2,A2,A2,B1
+Pile au moment où on a le plus besoin de réconfort ,A2,A2,A2,B1
 "Pour aller dans ma chambre, je dois monter un escalier",A2,B1,B1,A2
 "Pour moi, les médecins et les infirmières sont des héros sans costume",A2,B1,B1,A2
 "Pour se détendre, Théo prend souvent un bain le soir avant de jouer encore un peu et d’aller dormir",A2,B1,A2,A2
 "Pourtant, quand on était petits, il détestait aller chez le dentiste",A2,A2,B1,A2
-Préfères-tu aller au théâtre? ,A2,A2,A2,B1
+Préfères-tu aller au théâtre ,A2,A2,A2,B1
 "Puis, je donne à manger aux lapins",A2,B1,A2,B1
 "Puis, je voulais devenir docteur pour soigner les malades",A2,B1,B1,A2
 "Puis, plus grand, je découvrais les métiers de policier et d'avocat dans un film",A2,A2,A2,A2
@@ -421,24 +421,24 @@ Théo vérifie qu’il a bien fait son lit avant de s’habiller et de partir à
 Tout le monde aime les centres commerciaux,A2,B1,B1,A2
 Tout le monde aime les centres commerciaux,A2,A2,B1,A2
 Tu amenais tes poupées et on les baignait dans la mer,A2,B1,A2,A2
-Tu as eu des nouvelles de Marie ?,A2,A2,B1,A2
-Tu es encore fâché contre Jean ?,A2,A2,B1,A2
-Tu étais ma meilleure amie et tu avais toujours plein de bonnes idées pour s'amuser!,A2,A2,A2,B1
+Tu as eu des nouvelles de Marie ,A2,A2,B1,A2
+Tu es encore fâché contre Jean ,A2,A2,B1,A2
+Tu étais ma meilleure amie et tu avais toujours plein de bonnes idées pour s'amuser,A2,A2,A2,B1
 Tu faisais des châteaux de sable et tu mettais des coquillages sur les tours,A2,B1,A2,B1
-Tu vas t'inscrire dans quelle faculté en septembre ? ,A2,A2,A2,B1
-Tu veux du sucre dans ton café?,A2,A2,B1,A2
+Tu vas t'inscrire dans quelle faculté en septembre  ,A2,A2,A2,B1
+Tu veux du sucre dans ton café,A2,A2,B1,A2
 "Un reportage dans les coulisses de cette revue, célèbre évidemment partout dans le monde",A2,A2,A2,A2
 "Une fois qu’il a tout fini, Théo peut enfin aller jouer et s’amuser avant de dîner avec ses parents",A2,A2,B1,A2
 "Une heure plus tard, Clément et Manon dégustent leur déjeuner bien mérité",A2,A2,A2,A2
 "Une mission très ""pénible"" pour nos envoyés spéciaux sur place, Nicolas George et Martin van der Bossche",A2,B1,A2,B1
 "Une page culture de circonstance en ce 31 décembre festif, la féerie de la grande revue du Moulin Rouge à Paris",A2,B1,A2,B1
 Voici les principales,A2,B1,B1,A2
-Vous n'envisagez pas la vie sans votre tablette quotidienne ?,A2,A2,A2,B1
-Vous ne pouvez pas commencer votre journée sans votre bol de chocolat chaud ?,A2,B1,A2,B1
+Vous n'envisagez pas la vie sans votre tablette quotidienne ,A2,A2,A2,B1
+Vous ne pouvez pas commencer votre journée sans votre bol de chocolat chaud ,A2,B1,A2,B1
 Vous ne risquerez pas de vous ennuyer dans un lieu aussi animé,A2,B1,B1,A2
 Vous ne risquerez pas de vous ennuyer dans un lieu aussi animé,A2,A2,A2,B1
 À midi il prend un sandwich dans un café,B1,A2,B1,B1
-A t'il parlé d'astuces pratiques pour un bien-être quotidien et d'un questionnement philosophique sur cette quête de l'impossible ?,B1,B1,B1,B1
+A t'il parlé d'astuces pratiques pour un bien-être quotidien et d'un questionnement philosophique sur cette quête de l'impossible ,B1,B1,B1,B1
 "Ainsi, les salons se parent de bougies et de sapins",B1,A2,B1,B1
 "Après l'ambiance de luxe, ici c'est comme un tranquille village",B1,A2,A2,B1
 "Après un trajet en bus, il est heureux de retrouver la mer",B1,B1,B1,B1
@@ -454,7 +454,7 @@ A t'il parlé d'astuces pratiques pour un bien-être quotidien et d'un questionn
 "Avec les prévisions météo, on peut savoir quel temps il fera le soir, le lendemain ou dans la semaine",B1,A2,A2,B1
 Bien entendu les cadeaux de Noël seront déposés uniquement le 24 décembre au soir afin de permettre le déballage le lendemain matin,B1,B1,A2,B1
 "Bon appétit, Jason",B1,B1,A2,B1
-C'est injuste ! On ne peut pas le condamner pour la faute qu'il a commise,B1,B1,B2,B1
+C'est injuste  On ne peut pas le condamner pour la faute qu'il a commise,B1,B1,B2,B1
 C'est le quartier des beaux magasins et des produits de grandes marques,B1,B2,B1,B1
 "C'est une soupe de poissons, spécialité de Marseille",B1,A2,B1,B1
 C'est vrai qu'ils sont très bons mais j'ai peur qu'il tombe malade,B1,B2,B1,B1
@@ -470,7 +470,7 @@ Cette eau est utilisée pour faire pousser les culstures ou fabriquer les produi
 "Cette fête est encore traditionnellement fêtée en France, même si, comme pour Noël, elle a souvent perdu son aspect religieux",B1,B2,B1,B1
 Cette personne que tu as rencontrée hier au restaurant et dont t'as parlé Paul est dangereuse,B1,B1,B2,B1
 "Comme c'est proche de la maison, je peux y aller à pied, c’est très agréable",B1,B2,B1,B1
-comment manger en permanence et de préférence des mets délicieux ?,B1,B1,A2,B2
+comment manger en permanence et de préférence des mets délicieux ,B1,B1,A2,B2
 "Dans cette attente, nous restons à votre disposition pour répondre à vos questions pas téléphone ou via notre forum Internet",B1,B1,B1,A2
 "Dans le bureau, il y a un vélo d'appartement, des haltères et un stepper",B1,B1,A2,B1
 "Dans ma famille, on adore goûter les spécialités locales alors on a tout essayé, de la choucroute à la tarte flambée en passant par les kouglofs",B1,A2,B1,B1
@@ -497,7 +497,7 @@ Elle s'est ensuite élargie à d'autres établissements,B1,B1,B2,B1
 es vacances d'été en France durent 6 semaines et ont habituellement lieu entre Juillet et Septembre,B1,B2,B1,B1
 Est-ce que ton mari et tes enfants vont bien,B1,B1,B1,B1
 Est-ce que tu travailles toujours à l’agence de voyages,B1,B2,A2,B1
-Et si nous allions au cinéma ?,B1,B1,B1,B2
+Et si nous allions au cinéma ,B1,B1,B1,B2
 Félix n'arrête pas de manger des bredele (des biscuits spéciaux d’ici),B1,B1,B1,B1
 Hier il a même neigé,B1,B1,B1,B1
 "Il a fait construire en plus une belle véranda contenant une bibliothèque, pour profiter du soleil et d'une vue sur le jardin",B1,B2,A2,B1
@@ -594,7 +594,7 @@ Mes collègues sont gentils et m'ont bien accueillie,B1,B1,B1,B1
 Mon mari a enfin trouvé une place d’architecte et travaille sur un important projet d’immeuble avec son équipe,B1,B1,A2,B1
 "Nous allons bien, nous habitons dans une petite maison ancienne avec un très beau jardin",B1,B2,A2,B1
 Nous avons de nouveaux amis et nous avons rencontré nos voisins lors d’une soirée festive la semaine dernière,B1,B1,B1,B1
-Nous ne privons plus du bonheur de manger !,B1,B1,B1,B1
+Nous ne privons plus du bonheur de manger ,B1,B1,B1,B1
 Nous passerons les fêtes de Noël ensemble,B1,B1,A2,B1
 Nous vous invitons également à visiter notre page moodle afin d'obtenir des informations complémentaires,B1,B1,B2,B1
 On peut voir aussi le fleuve qui traverse la capitale : la Seine,B1,A2,B1,B1
@@ -618,18 +618,18 @@ Ses amis trouvent qu’il est très élégant avec son bracelet-montre doré et 
 Ses amis trouvent qu’il est très élégant avec son bracelet-montre doré et ses chaussures noires,B1,A2,B2,B1
 "Si de la pluie tombe alors qu’il y a du soleil, vous pourrez sans doute observer un arc-en-ciel",B1,B1,B1,B1
 "Si j'ai le temps, je te promets que je viendrai avec toi au théâtre",B1,B1,B1,A2
-"Si j'étais bon en biologie, je ferais des études de médecine Mais ce n'est pas le cas !",B1,B1,B1,B2
+"Si j'étais bon en biologie, je ferais des études de médecine Mais ce n'est pas le cas ",B1,B1,B1,B2
 Son architecture moderne s'associe très bien avec la mer toute proche et l'ancien Fort Saint-Jean,B1,B1,B1,B1
 "Tandis que les jonquilles fleurissent, les parents dissimulent du chocolat dans le jardin afin de célébrer Pâques",B1,B1,B1,B1
 "Tout en haut de la tour Eiffel, il y a des antennes qui émettent les programmes de radio et de télévision",B1,B1,B1,B1
 "Toutefois, certaines personnes ne disposent pas d'un budget spécial pour financer ce type de détente",B1,B1,A2,B1
 "Traditionnellement les chocolats sont sous forme d’œufs mais aussi d'animaux comme des poussins, lapins, moutons",B1,B1,B1,B1
-Tu as essayé de le recontacter ? ,B1,B1,B1,A2
+Tu as essayé de le recontacter  ,B1,B1,B1,A2
 "Un gros tier de l'utilisation correspond à la consommation de viande, par le biais du soja et du maïs utilisés pour nourir le bétail",B1,B1,B2,A2
 "Un membre inférieur comprend une cuisse, une jambe et un pied qui a cinq orteils",B1,A2,B1,B1
 "Un membre supérieur comprend un bras, un avant-bras et une main munie de cinq doigts",B1,B1,B1,B1
 "Un rapport, publié aujourd'hui par l'agence sanitaire canadienne, déconseille la consommation de boissons énergisantes, srutout chez les ados",B1,B1,A2,B1
-" Mais pour les visiteurs et les professionnels, c'est également l'occasion de découvrir les dernières innovations, et surtout de goûter les créations des chefs pâtissiers et chocolatiers !",B2,B2,B2,B2
+" Mais pour les visiteurs et les professionnels, c'est également l'occasion de découvrir les dernières innovations, et surtout de goûter les créations des chefs pâtissiers et chocolatiers ",B2,B2,B2,B2
 "À bord de leur vaisseau, Rosco et le capitaine Jim ont pour mission de sauver l'univers d'un terroriste imprudemment décongelé",B2,B2,B2,C1
 "Acheter français, c’est préserver l’emploi en France et éviter d’éventuelles fermetures d’usine synonymes de chômage et de paupérisation",B2,B1,B2,B2
 "Acheter français, devient un acte écologique car acheter des produits français sous-entendrait acheter des produits qui n’ont pas été fabriqués à l’autre bout du monde, et ainsi faire baisser la pollution en limitant le transport des marchandises, en diminuant leur empreinte carbone",B2,B2,B1,B2
@@ -642,7 +642,7 @@ Ainsi la trottinette électrique est maintenant interdite aux moins de 12 ans et
 "Assis en terrasse dans le quartier touristique du Vieux Lyon, James sirote une limonade bien fraîche",B2,B2,B1,B2
 "Aujourd’hui, plus personne ne la conteste et Halloween est devenue la troisième fête de l’année après Noël et le jour de l’An",B2,B2,B1,B2
 "Avec la chaleur estivale, cette journée d’exploration se révèle très fatigante",B2,B2,B1,B2
-"Avec la chaleur estivale, cette journée d’exploration se révèle très fatigante !",B2,B2,B2,B2
+"Avec la chaleur estivale, cette journée d’exploration se révèle très fatigante ",B2,B2,B2,B2
 C’est dans les années 1990 que la version moderne d’Halloween est introduite en France,B2,B2,B2,B2
 "C’est l’occasion de fêter Noël en famille, en petit comité",B2,B2,C1,B2
 C’est souvent un repas fastueux et long : il n’est pas rare de sortir de table vers 16 ou 17 heures,B2,B2,C1,B2
@@ -655,7 +655,7 @@ C’est un jour de fête où l’on invite la famille plus éloignée à partage
 "Ces derniers, par exemple, privilégient l’achat patriotique pour sa faible empreinte carbone",B2,B2,B2,B1
 Ces nouvelles contraintes vont-elles mettre un terme au développement de la trottinette,B2,B2,B2,B2
 "Chaque jour, ils ouvrent une des petites portes du calendrier de l’Avent pour en retirer un chocolat ou une figurine les aidant à patienter pour le grand jour ou plutôt la belle nuit de Noël",B2,B1,B2,B2
-Comment j'ai survécu à une perverse narcissique ?,B2,B2,B2,B2
+Comment j'ai survécu à une perverse narcissique ,B2,B2,B2,B2
 "D’abord, les produits fabriqués en France sont en moyenne 30 pour cent plus chers que les autres",B2,B1,B2,B2
 "Dans cette lettre au Père Noël, ils listent méticuleusement tous les cadeaux qu’ils souhaiteraient avoir au pied du sapin",B2,B2,B1,B2
 "Dans la maison, il y a une bonne odeur de pain d’épices qu’on mange au goûter",B2,B2,B1,B2
@@ -689,9 +689,9 @@ Il y aura bientôt une salle de consommation à moindre risque pour les toxicoma
 Ils craignent de passer pour des faibles,B2,B2,B2,C1
 "Ils précisent dans cette lettre qu’ils ont été bien sages, qu’ils ont écouté leurs parents et aussi fait tous leurs devoirs",B2,B2,B2,B1
 "Ils y creusaient des trous en forme de bouche, de nez et d’yeux et en éclairait l’intérieur d’une bougie",B2,B2,B1,B2
-J'ai une furieuse envie de téléportation!,B2,B2,C1,C1
+J'ai une furieuse envie de téléportation,B2,B2,C1,C1
 James a ensuite rejoint le quartier moderne de la Confluence où le fleuve de la Saône se jette dans le Rhône,B2,C1,B2,B2
-"Je vais être en retard ce soir, peux-tu préparer le dîner des enfants ?",B2,B2,B2,B2
+"Je vais être en retard ce soir, peux-tu préparer le dîner des enfants ",B2,B2,B2,B2
 L'objectif est de résuire les risques sanitaires et de diminuer les nuisances sur l'espace public,B2,B2,B2,C1
 L’esprit de Noël est partout,B2,B1,B2,B2
 La consommation sera encadrée par du personnel et éloignée des lieux publics,B2,B2,C1,B2
@@ -748,15 +748,15 @@ Son succès a généré beaucoup de réactions négatives,B2,B2,B1,B2
 "Sur les fenêtres des maisons, des cloches, des étoiles et des traîneaux ont été peints",B2,B2,B2,B2
 "Tourné en 3D par le réalisateur LWitley, ce nouvel épisode intergalactique, foisonnant, donne vite la migraine",B2,B2,B2,C1
 Tous ces préparatifs rendent chaque année l’atmosphère festive et enjouée,B2,B2,B2,B2
-Tu penses que cette prise de conscience va entraîner une amélioration des conditions de vie ?,B2,B2,B2,C1
-"Un dépliant de 4 pages distribué en 13 millions d'exemplaires ""pour fen finir avec les idées reçues"" et démontrer qu l'on ne pourrait vivre dans un monde ""sans amour et zéro papier ?""",B2,B2,C1,B2
+Tu penses que cette prise de conscience va entraîner une amélioration des conditions de vie ,B2,B2,B2,C1
+"Un dépliant de 4 pages distribué en 13 millions d'exemplaires ""pour fen finir avec les idées reçues"" et démontrer qu l'on ne pourrait vivre dans un monde ""sans amour et zéro papier """,B2,B2,C1,B2
 "Un sapin fraîchement coupé est installé dans la cuisine ou le salon, et décoré à l’aide de guirlandes colorées et de boules de noël",B2,C1,B2,B2
-Il y a combien de temps qu'un homme a marché sur la lune pour la première fois?,B2,B2,B2,B2
+Il y a combien de temps qu'un homme a marché sur la lune pour la première fois,B2,B2,B2,B2
 "Maintenant que j'ai mon Master de droit commercial, je vais commencer des études de lettres",B2,B2,B2,B2
 "Maintenant que j'ai mon diplôme en poche, mon père va peut-être enfin me féliciter",B2,B2,B2,B2
 Les trafiquants d'êtres humains prétendent garder les passeports de leur victimes pour mettre ces documents en lieu sûr,B2,B2,B2,B2
 Il ne faut surtout pas arrêter la prise d'antibiotiques en cours de traitement sous prétexte que l'on se sent mieux,B2,B2,B2,B2
-"L'un des principaux risque des soldes, c'est la tentation de tout acheter sous prétexte que ce n'est pas cher!",B2,B2,B2,B2
+"L'un des principaux risque des soldes, c'est la tentation de tout acheter sous prétexte que ce n'est pas cher",B2,B2,B2,B2
 Les appréciations sur le bulletin de notes sont aussi importantes que les moyennes elles-mêmes,B2,B2,B2,B2
 De nombreux opposants au projet se sont rassemblés en dépit de l'interdiction de manifester,B2,B2,B2,B2
 "Quoique brève, notre entrevue a été productive",B2,B2,B2,B2
@@ -810,7 +810,7 @@ Nous sommes au Théâtre de la Jeunesse à Hanoï pour une soirée « Cabaret de
 "C’est-à-dire, ici, par exemple, j’ai monté Les Fourberies de Scapin en vietnamien",B2,B2,B2,B2
 "Et j’ai fait des spectacles dans beaucoup de pays du monde, mais en cantonais, en espagnol, enfin bon, en arabe",B2,B2,B2,B2
 Je ne conçois pas tellement le théâtre populaire avec un spectacle dans une langue qu’on ne comprend pas,B2,B2,B2,B2
-"Parce que si vous prenez des chansons difficiles, vous n’y arriverez jamais!",B2,B2,B2,B2
+"Parce que si vous prenez des chansons difficiles, vous n’y arriverez jamais",B2,B2,B2,B2
 "Donc, je connais bien la musique et je sais les limites des jeunes que l’on prend et qui n’ont jamais chanté",B2,B2,B2,B2
 "Il faut leur faciliter la tâche, quand même, dans les écarts, dans les rythmes",B2,B2,B2,B2
 "Dans une grande salle au design épuré, ils sont une cinquantaine d’étudiants de 18 à 34 ans, les yeux rivés sur leur écran d’ordinateur",B2,B2,B2,B2
@@ -821,9 +821,9 @@ Les profils retenus seront rappelés pour participer aux entretiens et aux quara
 "Le pari que l’entreprise prend chez Sayna, c’est d’avoir un impact social, puisqu’en fait, elle choisit intentionnellement de recruter un jeune qui vient d’un milieu précaire et donc, elle s’engage à lui payer sa formation et en plus de ça, à lui payer un salaire",B2,B2,B2,B2
 "Ce qui fait que le jeune passe d’un niveau de vie de moins de un euros par jour à plus de six, voire sept euros par jour",B2,B2,B2,B2
 "Il y a sept mois après sa formation intensive chez Sayna, Cédric Maminjanahary, 23 ans, a intégré une banque de microfinance",B2,B2,B2,B2
-"Depuis toujours, je rêve que, en un seul clic, j’apporte de la magie à la vie ! ",B2,B2,B2,B2
+"Depuis toujours, je rêve que, en un seul clic, j’apporte de la magie à la vie  ",B2,B2,B2,B2
 "J’ai économisé mon argent de poche pour que, chaque samedi, je puisse me rendre chez un au cybercafé pour télécharger des tutos sur Internetpour le développement",B2,B2,B2,B2
-"Le fait de passer par Sayna, ça a accéléré le cours de ma vie parce que maintenant, je gagne ma vie en faisant ce que j’aime le mieux au monde !",B2,B2,B2,B2
+"Le fait de passer par Sayna, ça a accéléré le cours de ma vie parce que maintenant, je gagne ma vie en faisant ce que j’aime le mieux au monde ",B2,B2,B2,B2
 "En plus d’une formation aux langages informatiques purs, Sayna impose aussi l’apprentissage d’une toute autre forme de code",B2,B2,B2,B2
 "Parallèlement, on met l’accent sur le savoir-vivre en entreprise, parce que, nous, les Malgaches, dans notre culture, on n’a pas cette habitude de dire non, ou de dire : « Je ne sais pas faire »",B2,B2,B2,B2
 "Et pourtant, c’est essentiel pour le bon fonctionnement d’une entreprise ",B2,B2,B2,B2
@@ -843,7 +843,7 @@ Sa société a déjà embauché deux développeurs chez Sayna l’an dernier et 
 ",C1,C1,C1,C1
 " Ben, au bout d'un moment, c'est plus devenu le président, c'était quelqu'un qui mangeait chez vous
 ",C1,C1,C1,C1
-" C'est quand même une drôle d'idée, c'est pas mal moins drôle !
+" C'est quand même une drôle d'idée, c'est pas mal moins drôle 
 ",C1,C1,C1,C1
 " C'était hier après-midi que les deux hommes ont viré à l'entrée de la Manche avant de plonger dans un vent glacial, ction les Sables d'Olonne Alex Thomson est alors pointé à quatre-vingt-quinze milles, les dés sont jetés, d'autant plus qu'Alex est épuisé par une série de problèmes techniques qui l'empêchent de dormir
 ",C1,C1,C1,C1
@@ -860,7 +860,7 @@ Sa société a déjà embauché deux développeurs chez Sayna l’an dernier et 
 " Ces derniers ont eu la bonne idée de faire les recherches à Habsheim-le-Bas, à 200 mètres plus loin",C1,C1,C1,C1
 " Comme fai vu que c'était un match assez dur
 ",C1,C1,C1,C1
-" Comme tous les soirs, c'est moi Monsieur Stopeleu pour vous présenter le journal Alsace, avec des nouvelles du Haut-Rhin, des nouvelles du Bas-Rhin et des nouvelles aussi du bas du dos, tant qu'on y est !
+" Comme tous les soirs, c'est moi Monsieur Stopeleu pour vous présenter le journal Alsace, avec des nouvelles du Haut-Rhin, des nouvelles du Bas-Rhin et des nouvelles aussi du bas du dos, tant qu'on y est 
 ",C1,C1,C1,C1
 " Conscient de sa popularité assez faible, il renonce par la suite à briguer un nouveau mandat présidentiel
 ",C1,C1,C1,C1
@@ -870,13 +870,13 @@ Sa société a déjà embauché deux développeurs chez Sayna l’an dernier et 
 ",C1,C1,C1,C1
 " Depuis son départ de l'Élysée, il était membre de droit du Conseil Constitutionnel
 ",C1,C1,C1,C1
-" Donc au Québec, on parle français un point c'est toute ! 
+" Donc au Québec, on parle français un point c'est toute  
 ",C1,C2,C1,C1
 " Du coup, je suis obligée de crier pour leur dire bonjour de lautre côté de la rue",C1,C1,C1,C1
 " Elle boit de l'eau, elle a chaud, c'est vrai qu'il fait chaud",C1,C1,C1,C1
 " Elle est belle, cette victoire pour ce skipper de trente-neuf ans
 ",C1,C1,C1,C1
-" Elle me touche la main, ça veut dire qu'il faut que je lui touche les seins !",C1,C1,C1,C2
+" Elle me touche la main, ça veut dire qu'il faut que je lui touche les seins ",C1,C1,C1,C2
 " Elle se cure le nez, ça veut dire qu'elle est đégueu",C1,C2,C1,C2
 " Elle se ronge les ongles, ça veut dire qu'elle est anxieuse",C1,C1,C1,C1
 " Elle se touche les cheveux, un classique, elle me désire",C1,C1,C1,C1
@@ -889,7 +889,7 @@ Sa société a déjà embauché deux développeurs chez Sayna l’an dernier et 
 " Et en 1969, il ouvre la porte de sortie au Général de Gaulle, en refusant d'appeler à soutenir son référendum
 ",C1,C2,C1,C1
  Et je ne vous ai pas encore parlé des promenades,C1,C2,C1,C1
-" Et vous, vous souvenez-vous d'un cadeau de Noël que vous avez aimé autant que j'ai adoré le mien?",C1,C2,C1,C1
+" Et vous, vous souvenez-vous d'un cadeau de Noël que vous avez aimé autant que j'ai adoré le mien",C1,C2,C1,C1
 " Fait que, le Québec, ben, c'est une colonie française pis les colons ben ils y aboutissent par bateau depuis la France
 ",C1,C1,C1,C2
 " Finalement, la victoire, je l'ai entrevue que la nuit dernière
@@ -938,7 +938,7 @@ Sa société a déjà embauché deux développeurs chez Sayna l’an dernier et 
 ",C1,C1,C1,C1
 " Mais contrairement à ce qu'on pourrait croire, il sembleralt que ce soit les Parisiens qui changent leur manière de parler, décidant soudainement de prononcer toutes les syllabes, toutes les lettres, toutes les mots comme il faut
 ",C1,C1,C1,C1
-" Mais écoute-moi ben, pis tu vas tout comprendre !
+" Mais écoute-moi ben, pis tu vas tout comprendre 
 ",C1,C1,C1,C2
 " Mais les chocs pétroliers plongent la France dans la crise
 ",C1,C1,C1,C1
@@ -948,7 +948,7 @@ Sa société a déjà embauché deux développeurs chez Sayna l’an dernier et 
 ",C1,C1,C1,C1
 " N'oublions pas que c'était les années 50 et que la Barbie n'est apparue en France qu'en 1963
 ",C1,C1,C1,C1
-" Non, ça veut dire ""sa průle"" (ça brûle) !",C1,C1,C1,C2
+" Non, ça veut dire ""sa průle"" (ça brûle) ",C1,C1,C1,C2
  On n'est sortis de l'auberge,C1,C1,C1,C2
 " Oui, j'ai bien dit ""les promenades"", parce que nous sortons à présent toutes les deux heures en moyenne
 ",C1,C1,C1,C2
@@ -1015,7 +1015,7 @@ Elle est connue mais ça fait toujours rigoler,C1,C1,C1,C2
 "Elle pose sa main sur la table, elle tente un rapprochement",C1,C1,C1,C2
 "En 1763, après avoir perdu la bataille des plaines d'Abraham de 1759, l'empire français cède ses terres à l'empire britannique et il n'y a plus d'échange entre la France et le Québec",C1,C2,C1,C1
 "En effet, je remplis les conditions d'ancienneté requises puisque je travaille dans votre entreprise depuis 45 mois et que je possède une expérience professionnelle de 8 années",C1,C1,C2,C1
-"En fait, pour ceux qui sauraient pas, vous savez pourquoi il y a écrit S et P sur les voitures de pomplers ?",C1,C2,C1,C1
+"En fait, pour ceux qui sauraient pas, vous savez pourquoi il y a écrit S et P sur les voitures de pomplers ",C1,C2,C1,C1
 "En mai 1968, il reprend à son compte une partie des revendications de la jeunesse, ce qui lui permet de passer entre les pavés
 ",C1,C1,C1,C2
 "En outre, ils doivent disposer de moyens de subsistance suffisanats tant pour la durée de leur séjour que pour leur retour et ne pas faire l'objet d'un signalement aux fins de non-admission",C1,C1,C2,C2
@@ -1062,7 +1062,7 @@ La petite fille de Habsheim-le-Haut qui avait disparu il y a trois jours a en fa
 ",C1,C1,C1,C1
 "Le ressortissants d'un pays tiers à l'Union européenne et des pays associés soumis à visas, qui souhaitent effectuer un court séjour dans un ou plusieurs pays de la zone Schengen",C1,C1,C1,C1
 Le visa de court séjour est délivré pour 3 mois au plus ,C1,C1,C1,C2
-"Les enfants, est-ce que vous vous êtes lavé les mains avant de passer à table ?",C1,C1,C1,C1
+"Les enfants, est-ce que vous vous êtes lavé les mains avant de passer à table ",C1,C1,C1,C1
 Les nationalités non soumises à visa (liste commune établie par les pays membres) peuvent circuler sur le territoire Schengen pendant une période de 3 mois au maximum,C1,C1,C1,C1
 Les textos louent ici le même rôle quo les échanges épistolaires : ils sont un moyen de se remémorer la passion,C1,C1,C1,C1
 "Lorsqu'une jeune femme aveugle e effleuré cette inscription en braille sur le mur de l'église Sainte-Croix de Nantes, elle a éclaté de rire",C1,C1,C1,C1
@@ -1078,16 +1078,16 @@ Or il n’y a pas pire esclave que celui qui se croit libre,C1,C1,C1,C1
 "Or, le Code du travail stipule que pour pouvoir bénéficier d'un congé sabbatique, le salarié doit remplir une double condition d'ancienneté de trente-six mois, consécutifs ou non, dans l'entreprise et six années d'activité professionnelle antérieure ",C1,C1,C1,C1
 "Par un courrier du 2 février, vous me faites part de votre refus au motif que je ne remplirais pas les conditions d'ancienneté requises pour ce type de congé ",C1,C1,C1,C2
 "Pendant que les humains bavardaient, Mimi le caniche, Fido le berger allemand et moi, on se donnait les nouvelles du quartier et on reniflait les nouveaux arrivants",C1,C2,C1,C1
-Pourquoi laisser à la portée de celui ou relie a qui lion a juré fidélité les preuves du mensonge alors qu'if est si facile de les faire disparaître? ,C1,C1,C2,C2
+Pourquoi laisser à la portée de celui ou relie a qui lion a juré fidélité les preuves du mensonge alors qu'if est si facile de les faire disparaître ,C1,C1,C2,C2
 "S'ils ont des motifs de croire qu'un enlèvement d'enfant ou autre acte criminel est sur le point d'être commis, les agents des doueanes ont des pouvoirs similaires à ceux des policiers",C1,C1,C1,C2
 "s'ils ont la garde légale de leur progéniture, ils doivents absolument montrer les papiers légaux de garde",C1,C1,C1,C2
 "Selon l'une des nombreuses données statistiques auxquelles nous avons accès aujourd'hui, nombre d'entre nous fouillent dans le portable de leur partenaire pour y dénicher des preuves d'infidélité",C1,C1,C1,C1
 "Si elle me parle, c'est qu'elle a des choses à dire, il faut que je l'écoute",C1,C1,C1,C2
 "Si l'agent doute de la sécurité de l'enfant, il peut également poser des questions additionnelles, explique Nicole Barsalou, porte-parole de l'Agence",C1,C1,C1,C1
-"Si t'as trouvé le vidéo le fun, pense à aimer notre chaine YouTube et notre page Facebook ! ",C1,C1,C1,C2
+"Si t'as trouvé le vidéo le fun, pense à aimer notre chaine YouTube et notre page Facebook  ",C1,C1,C1,C2
 "Sur le fond, il enclenche une politique progressiste
 ",C1,C1,C1,C2
-"Tout d'abord, d'où vient ce fameux accent québécois ?",C1,C1,C1,C2
+"Tout d'abord, d'où vient ce fameux accent québécois ",C1,C1,C1,C2
 "Une huitième édition dominée par le duel au sommet avec Alex Thomson, une course poursuite menée par Armel depuis le 23 novembre dernier, quarante-sept jours de haute tension qui se terminent aujourd'hui ",C1,C2,C1,C1
 "33° à l'ombre, et 80% d'humidité, aujourd'hui, c'est au ceur du jardin tropical de Valombreuse que nous vous proposons de découvrir l'une des spécialités culinaires les plus consommées aux Antilles : les accras de morue",C1,C1,C1,C1
 "De délicieux petits beignets tendres et croustillants à la fois, une recette idéale pour voyager sous le soleil des tropiques",C1,C1,C1,C1
@@ -1107,7 +1107,7 @@ Pourquoi laisser à la portée de celui ou relie a qui lion a juré fidélité l
  Le lien entre l’acteur et l’acte commis est inexistant,C2,C2,C2,C2
 " On définit une contrainte comme étant est une chose imposée par l’extérieur contre la volonté d’un individu
 ",C2,C2,C2,C2
- On peut donc se demander est-ce que l’Homme est contraint ou obligé de travailler ?,C2,C2,C2,C2
+ On peut donc se demander est-ce que l’Homme est contraint ou obligé de travailler ,C2,C2,C2,C2
 " Or ce qui permet à l’homme d’échapper à la situation absurde de l’âne mourant de faim et de soif entre une botte de foin et un seau d’eau, c’est qu’il dispose de cette liberté d’indifférence, c’est-à-dire de cette liberté par laquelle notre volonté a le pouvoir de choisir spontanément et de sa propre initiative",C2,C2,C2,C2
 " Or, il faut bien différencier une contrainte d’une obligation, qui elle est une activité que l’individu s’impose lui-même librement
 ",C2,C2,C2,C2
@@ -1115,7 +1115,7 @@ Pourquoi laisser à la portée de celui ou relie a qui lion a juré fidélité l
 ",C2,C2,C2,C2
 " Pour Blaise Pascal, c’est un divertissement qui occupe une grande partie de la vie des Hommes et qui permet de masquer les problèmes essentiels de l’existence humaine
 ",C2,C2,C2,C2
-? Il s’agit en effet d’une action qui est infligée à l’Homme par des individus qui lui sont supérieurs,C2,C2,C2,C2
+ Il s’agit en effet d’une action qui est infligée à l’Homme par des individus qui lui sont supérieurs,C2,C2,C2,C2
 " Ce philosophe pense qu’à partir du moment où l’Homme sort de ce genre de  société, alors le travail aliéné se termine et la vocation commence",C2,C2,C2,C2
 " Dans ces deux exemples, le travail est infligé aux êtres humains par des créatures divines qui leur sont supérieures, mais c’est aussi le seul moyen que les Hommes ont pour survivre",C2,C2,C2,C2
 " En effet, dans la religion chrétienne, la Bible présente tout d’abord l’Homme dans la Genèse à l’état de nature, comme un être vivant dans le jardin d’Eden, où il n’a pas besoin de travailler pour vivre car ce jardin lui offre naturellement de quoi exister agréablement",C2,C2,C2,C2
@@ -1126,7 +1126,7 @@ Pourquoi laisser à la portée de celui ou relie a qui lion a juré fidélité l
 "Ainsi, pour Kant, pour que l’homme soit moral, il faut qu’il soit libre, car s’il était forcé par une nature intelligible à la bonté, à la justice et à l’altruisme, il ne serait qu’un automate spirituel et s’il était forcé par sa nature sensible à l’égoïsme, il ne serait qu’un mécanisme matériel",C2,C2,C2,C2
 "André Gide, dans Les Caves du Vatican, cherche à illustrer la possibilité pour un être humain de réaliser un acte gratuit, c’est-à-dire un acte accompli sans raison, par le seul effet de sa liberté",C2,C2,C2,C2
 "Au début, l’Homme est un être naturel comme les animaux, or il est aussi naturellement démuni face aux autres car le frère de Prométhée, Epiméthée, omet de le doter d’une capacité qui lui permettrait de survivre",C2,C2,C2,C2
-"Autrement dit, peut-on se contenter du  sentiment de notre liberté pour en déduire son existence certaine ?",C2,C2,C2,C2
+"Autrement dit, peut-on se contenter du  sentiment de notre liberté pour en déduire son existence certaine ",C2,C2,C2,C2
 "Autrement dit, tout homme, lorsqu’il porte un regard réflexif  sur lui-même, se juge spontanément libre, c’est-à-dire en mesure d’agir simplement en fonction de sa volonté",C2,C2,C2,C2
 "Aux yeux de la justice, il est responsable car nul n'est censé ignorer la loi",C2,C2,C2,C2
 "C’est ainsi qu’au sens moral et juridique, être libre, c’est pouvoir être reconnu autonome et responsable de ses actes, de ses choix, à la fois devant soi-même et devant la société à laquelle on appartient",C2,C2,C2,C2
@@ -1146,7 +1146,7 @@ Cette série documentaire en trois volets retrace un siècle d'histoire de la Ch
 "Cette situation d’indifférence du choix prouve donc que l’homme est doté d’un libre arbitre, c’est-à-dire d’une capacité de choisir pouvant échapper à tout déterminisme",C2,C2,C2,C2
 "Comme disait Stendhal, « la vocation, c’est le bonheur d’avoir pour métier sa passion », c’est-à-dire que dès qu’on ne travail plus pour un moyen de subsistance mais qu’on le fait par passion librement, alors le travail ne peut plus être considéré comme une contrainte",C2,C2,C2,C2
 "Comme le disait Oscar Wilde dans Le portrait de Dorian Gray, « je peux résister à tout sauf à la tentation », c’est donc nécessaire pour l’Homme de contenter ses envies",C2,C2,C2,C2
-"Comment penser les conséquences d’une authentique libération de l’homme dans ses interactions morales, sociales et politiques ?",C2,C2,C2,C2
+"Comment penser les conséquences d’une authentique libération de l’homme dans ses interactions morales, sociales et politiques ",C2,C2,C2,C2
 "D’après Marx, en droit le travail devrait être l’expression de l’existence de chaque être humain",C2,C2,C2,C2
 "D’après Marx, les Hommes qui font du travail une contrainte sont ceux qui produisent les objets du désir des Hommes",C2,C2,C2,C2
 "D’autre part, il est possible de considérer que le travail n’est pas uniquement une contrainte dans la mesure où il pourrait s’agir d’une obligation, c’est-à-dire une activité que l’Homme s’imposerait librement à lui-même",C2,C2,C2,C2
@@ -1158,7 +1158,7 @@ Cette série documentaire en trois volets retrace un siècle d'histoire de la Ch
 "Deux New-Yorkaises trouvent ""que, même si ça vaut le coup""  il y a encore du chemin faire pour recevoir de façon efficace les visiteurs",C2,C2,C2,C2
 "Deuxièmement, Spinoza précise bien que les hommes « se vantent » d’être libre car le désir d’être libre, même illusoire, est beaucoup plus valorisant pour l’orgueil humain que l’idée d’être totalement déterminé",C2,C2,C2,C2
 Dommage ces fils et ces poteaux qui balafrent le décor,C2,C2,C2,C1
-Eh bien non! Je ne veux plus entendre parler de lui,C2,C2,C2,C2
+Eh bien non Je ne veux plus entendre parler de lui,C2,C2,C2,C2
 "Elle tournait tant autour du pot et plus encore, que le marquis perdit patience",C2,C2,C2,C2
 "En bas, les touristes de toutes les nationalités s'impatientent au milieu des revendeurs à la sauvette",C2,C2,C2,C2
 "En conséquence, si la liberté est illusoire ou inaccessible, il semble que c’en soit fini de la responsabilité morale et juridique de tout individu, et par là même de la justice",C2,C2,C2,C2
@@ -1168,7 +1168,7 @@ Eh bien non! Je ne veux plus entendre parler de lui,C2,C2,C2,C2
 "En effet, le risque pour un homme comme Calliclès décidant de mener une vie intempérante et désordonnée est de devenir l’esclave de ses propres passions et désirs",C2,C2,C2,C2
 "En effet, le travail étant un des facteurs principaux qui permet à l’Homme d’améliorer son existence la perfectibilité le développe",C2,C2,C2,C2
 "En effet, le travail pourrait être qualifié uniquement de contrainte si il est imposé à l’humanité par d’autres Hommes",C2,C2,C2,C2
-"En effet, que se passe-t-il lorsqu’un individu se retrouve face à deux possibilités aussi équivalentes l’une que l’autre, lorsque rien ne puisse permettre de déterminer son choix ?",C2,C2,C2,C2
+"En effet, que se passe-t-il lorsqu’un individu se retrouve face à deux possibilités aussi équivalentes l’une que l’autre, lorsque rien ne puisse permettre de déterminer son choix ",C2,C2,C2,C2
 "En effet, selon Spinoza, non seulement l’homme est déterminé mais cette illusion naturelle du libre arbitre nous déterminent à ne pas savoir que nous sommes déterminés, et ainsi à l’être d’autant plus sûrement",C2,C2,C2,C2
 "En effet, si le travail est une vocation pour l’Homme qui le réalise, alors cette activité est considérée comme une fin en soi et devient donc une obligation pour l’Homme et non plus une contrainte",C2,C2,C2,C2
 "En haut des tours, il n'est pas conseillé de s'attarder trop longtemps devant le panorama parisien",C2,C2,C2,C2
@@ -1176,8 +1176,8 @@ Eh bien non! Je ne veux plus entendre parler de lui,C2,C2,C2,C2
 ",C2,C2,C2,C2
 "En revanche, s’il n’y avait pas de liberté, la loi morale ne saurait nullement être rencontrée en nous »",C2,C2,C2,C2
 "Enfin, le travail pourrait être déterminé comme une obligation si c’est une fin en soi",C2,C2,C2,C2
-Est-il dès lors possible de reconstruire une approche de la liberté qui soit accessible à l’homme ?,C2,C2,C2,C2
-Est-il donc possible de faire une expérience de notre liberté qui puisse justifier ce sentiment ?,C2,C2,C2,C2
+Est-il dès lors possible de reconstruire une approche de la liberté qui soit accessible à l’homme ,C2,C2,C2,C2
+Est-il donc possible de faire une expérience de notre liberté qui puisse justifier ce sentiment ,C2,C2,C2,C2
 "Et Kant ajoute pour préciser : « (…) si la loi morale n’était pas d’abord clairement conçue dans notre raison, nous ne nous croirions jamais autorisés à admettre une chose telle que la liberté (…) ",C2,C2,C2,C2
 "Être libre, c’est apprendre à se libérer des passions",C2,C2,C2,C2
 "Être libre, c’est être responsable de ses actes",C2,C2,C2,C2
@@ -1202,18 +1202,18 @@ L’enjeu de l’entrée dans la liberté authentique est donc celui du rapport 
 La liberté comme condition de l’acte éthique,C2,C2,C2,C2
 "La liberté correspondrait donc à un sentiment intérieur, à une expérience immédiate en chaque homme",C2,C2,C2,C2
 "La liberté entre alors dans le champ de la réflexion morale, sociale et politique ",C2,C2,C2,C2
-La liberté est-elle une illusion ?,C2,C2,C2,C2
-La liberté humaine est-elle donc possible ? ,C2,C2,C2,C2
+La liberté est-elle une illusion ,C2,C2,C2,C2
+La liberté humaine est-elle donc possible  ,C2,C2,C2,C2
 "La plupart des philosophes qui se sont prononcés en faveur de la liberté humaine, en faveur de l’existence du libre arbitre, ont accordé une grande valeur à l’expérience intime, immédiate que nous aurions, selon eux, de notre liberté : « La liberté de notre volonté, écrit Descartes (Principes de la Philosophie, I, art39), se connaît sans preuve par la seule expérience que nous en avons »",C2,C2,C2,C2
 "La première critique consistera à remarquer que Lafcadio  fait reposer son passage à l’acte sur des signes extérieurs, en l’occurrence l’apparition ou la non apparition d’un feu dans la campagne",C2,C2,C2,C2
 La sécheresse que connaît actuellement le France ne résulte pas seulement d'une météorologie défavorable mais découle aussi d'une politique de l'eau TM archaïque,C2,C2,C2,C1
-La seconde critique consistera à remarquer que l’absence de motivations dans l’acte de Lafcadio est tout sauf évidente : l’une de ses premières motivations ne serait-elle pas le désir même de se prouver à lui-même sa liberté ?,C2,C2,C2,C2
+La seconde critique consistera à remarquer que l’absence de motivations dans l’acte de Lafcadio est tout sauf évidente : l’une de ses premières motivations ne serait-elle pas le désir même de se prouver à lui-même sa liberté ,C2,C2,C2,C2
 Lafcadio prend d’ailleurs un soin tout particulier à renforcer la gratuité de son crime : il remet tout au hasard et se met à compter pour soumettre sa décision de passer à l’acte ou de ne pas passer à l’acte à l’apparition d’un feu dans la nuit,C2,C2,C2,C2
 "Lafcadio se dit en effet, et à juste titre, que s’il n’a pas de mobiles pour réaliser ce crime, il n’a donc pas de motivations",C2,C2,C2,C2
 Le caractère pénible et douloureux du travail est ainsi exprimé dans la phrase « tu travailleras à la sueur de ton front » ,C2,C2,C2,C2
 "Le fait que nous nous sentions, à tort ou à raison libre, exige donc que l’on agisse comme si on était effectivement libre",C2,C2,C2,C2
 "Le marquis la reçut de mauvaise grâce, debout dans le vestibule, et mit un certain temps à comprendre ce qu'elle voulait car c'était une femme aux mots remâchés et aux circonlocutions amphigouriques",C2,C2,C2,C2
-Le sentiment de liberté ou la volonté de réaliser un acte non déterminé ne seraient-ils pas qu’une croyance?,C2,C2,C2,C2
+Le sentiment de liberté ou la volonté de réaliser un acte non déterminé ne seraient-ils pas qu’une croyance,C2,C2,C2,C2
 Le soleil aplatissait le chemin du Quai à grands coups de langue,C2,C1,C2,C1
 "Le travail est ici dicté par les êtres divins que sont Prométhée et Epiméthée, c’est-à-dire des Titans",C2,C2,C2,C2
 Le travail permet en effet à l’Homme de se libérer d’aspects contraignant liés à l’existence humaine,C2,C2,C2,C2
@@ -1222,7 +1222,7 @@ Le travail permet en effet à l’Homme de se libérer d’aspects contraignant 
 Les hommes se croient libres alors qu’ils sont contraints ou déterminés par leur nature,C2,C2,C2,C2
 Les symphonies que j'ai entendu jouer lors de ce festival étaient d'une qualité vraiment médiocre,C2,C2,C2,C2
 "n revanche, Socrate choisit la vie ordonnée, celle où les tonneaux du sage « seraient en bon état »",C2,C2,C2,C2
-"Ne semble-t-il pas que ce ne soit que de façon illusoire et superficielle que je fasse l’ « expérience » de ma liberté, par ignorance des déterminations qui sont pourtant en jeu ?",C2,C2,C2,C2
+"Ne semble-t-il pas que ce ne soit que de façon illusoire et superficielle que je fasse l’ « expérience » de ma liberté, par ignorance des déterminations qui sont pourtant en jeu ",C2,C2,C2,C2
 "Néanmoins, l’existence d’êtres divins n’étant pas un fait prouvé on peut rester sceptique sur les origines du travail relatées précédemment",C2,C2,C2,C2
 "Néanmoins, pour obtenir avoir de l’argent, le travail est l’unique option que possède l’humanité et donc c’est un moyen pour l’Homme de satisfaire ses désirs",C2,C2,C2,C2
 "Notre travail a, en tout cas, cherché à démontrer que si la croyance en une liberté immédiate était illusoire, voire naïve, la critique spinoziste nous a permis d’accéder à une approche de la liberté qui puisse permettre d’en préserver l’espoir : en effet, si l’homme n’est pas libre, il lui est, en revanche, donné d’entrer dans un processus, dans une conquête assimilable à une libération par l’usage de la raison et par son entrée dans la morale et la vie sociale",C2,C2,C2,C2
@@ -1230,7 +1230,7 @@ Les symphonies que j'ai entendu jouer lors de ce festival étaient d'une qualit�
 "Or à prendre les choses rigoureusement, l’homme est tout aussi déterminé à se mouvoir sous l’influence de causes externes qu’une pierre qui reçoit une impulsion",C2,C2,C2,C2
 "Or l’objectif de Spinoza est bel et bien de montrer que l’homme suit les lois communes de la Nature, comme toutes les choses de ce monde",C2,C2,C2,C2
 "Or le hasard, c’est précisément ce qui est fortuit, c’est-à-dire dépourvu de toute intention consciente, donc de motivation intrinsèque",C2,C2,C2,C2
-"Or peut-on se contenter de cette expérience immédiate ou pour reprendre la formulation de Bergson, de cette « donnée immédiate de la conscience » ?",C2,C2,C2,C2
+"Or peut-on se contenter de cette expérience immédiate ou pour reprendre la formulation de Bergson, de cette « donnée immédiate de la conscience » ",C2,C2,C2,C2
 "Or une telle vie, guidée par des désirs multiples, polymorphes et surtout infinis, mène nécessairement au tourment et au malheur",C2,C2,C2,C2
 "Par ailleurs, Platon, dans Protagoras, relate l’apparition de la technique, et donc du travail, chez les Hommes dans « le mythe de Prométhée »",C2,C2,C2,C2
 "Par conséquent, d’après Marx, les Hommes qui détiennent les clés des désirs de l’humanité auront en leur possession un pouvoir immense et une responsabilité d’autant plus importante",C2,C2,C2,C2
@@ -1239,7 +1239,7 @@ Les symphonies que j'ai entendu jouer lors de ce festival étaient d'une qualit�
 "Par conséquent, pour que le travail ne soit plus une contrainte, il faut que l’Homme sorte du capitalisme selon Marx",C2,C2,C2,C2
 "Par exemple, un Homme qui travail uniquement pour obtenir un salaire et qui n’apprécie pas son métier va le considérer comme une lourde contrainte alors qu’un Homme qui aime son métier et qui le considère comme une vocation va prendre du plaisir à le faire pour lui et non pour le salaire et va donc le considérer comme une fin en soi, c’est-à-dire une activité qu’il choisi de faire librement autrement dit une obligation",C2,C2,C2,C2
 "Platon cherche ainsi à montrer, dans ce dialogue, l’illusion dans laquelle se trouvent les hommes comme Calliclès, qui croient qu’être libre consiste à faire ce que l’on veut, c’est-à-dire à réaliser tous ses désirs",C2,C2,C2,C2
-"Platon, dans le Gorgias, pose la question suivante : est-ce la vie de l’homme aux désirs insatiables ou celle guidée par la raison qui est la meilleure ?",C2,C2,C2,C2
+"Platon, dans le Gorgias, pose la question suivante : est-ce la vie de l’homme aux désirs insatiables ou celle guidée par la raison qui est la meilleure ",C2,C2,C2,C2
 "Pour conclure, le travail ne peut guère être uniquement considéré comme une simple contrainte même si il est imposé à l’Homme par d’autres individus",C2,C2,C2,C2
 "Pour Descartes, cette liberté d’indifférence, bien que considérée comme « le plus bas degré de la liberté », témoigne en même temps d’un pur libre arbitre qui apparente l’homme à Dieu (Méditation quatrième)",C2,C2,C2,C2
 "Pour Marx, le travail n’est donc qu’une contrainte car c’est l’unique moyen de survie qui est imposé à certains Hommes par la société",C2,C2,C2,C2
@@ -1247,21 +1247,21 @@ Les symphonies que j'ai entendu jouer lors de ce festival étaient d'une qualit�
 "Pour visiter les tours de la cathédrale, il faut patienter quarante bonnes minutes le matin et près de deux heures et demie à la mi-journée",C2,C2,C2,C2
 "Premièrement, la source de l’illusion humaine du libre arbitre est l’ignorance des causes qui nous poussent à agir",C2,C2,C2,C2
 "Que je sache, on n'a annoncé ni comètes ni éclipses et nos fautes ne sont pas si grandes que Dieu doive s'occuper de nous",C2,C2,C2,C2
-"Quel droit avez-vous, vous tous, d'encombrer uns vie, de me voler mon temps, de sonder mon âme, de sucer mes pensées, de m'avoir pour compagnon, pour confident, pour bureau d'information ?",C2,C2,C2,C2
+"Quel droit avez-vous, vous tous, d'encombrer uns vie, de me voler mon temps, de sonder mon âme, de sucer mes pensées, de m'avoir pour compagnon, pour confident, pour bureau d'information ",C2,C2,C2,C2
 "Sébastien Granet et Hélène Lavoie, la cheffe, nous ont accueillis malgré un autobus de visiteurs qui ripaillaient",C2,C2,C2,C1
 Si bien qu’il est tout-à fait envisageable de soupçonner Lafcadio de prendre pour une absence de motifs ce qui ne serait au fond qu’une ignorance profonde des motifs de son acte,C2,C2,C2,C2
 "Si vous voulez me dire quelque chose, arrêtez ce galimatias, lança-t-il",C2,C2,C2,C2
-"Si, dans quelque moment de faiblesse, de détente, de besoin, je lâche de la vapeur-un peu de colère brûlante dont la chaleur tombe avec les mots - rêve passionné, enveloppé des langes de limage - eh ! bien prenez ou laissez, mais ne m'embêtez pas !",C2,C2,C2,C2
+"Si, dans quelque moment de faiblesse, de détente, de besoin, je lâche de la vapeur-un peu de colère brûlante dont la chaleur tombe avec les mots - rêve passionné, enveloppé des langes de limage - eh  bien prenez ou laissez, mais ne m'embêtez pas ",C2,C2,C2,C2
 "Socrate incarne, en effet, le sage qui sait distinguer entre les désirs à poursuivre ou à ne pas poursuivre, qui sait se gouverner lui-même et qui est en mesure d’accéder à une véritable autonomie de la volonté",C2,C2,C2,C2
 Son acte serait donc déterminé par une extériorité,C2,C2,C2,C2
 "Spinoza critique notamment Descartes qui conçoit l’homme comme « un empire dans un empire », ainsi que tous les philosophes qui croient que « l’homme trouble l’ordre de la Nature plutôt qu’il ne le suit, qu’il a sur ses propres actions un pouvoir absolu et ne tire que de lui-même sa détermination »",C2,C2,C2,C2
-"Suis-je un amuseur stipendié, dont on exige tous les soirs qu'il joue une farce intellectuelle sous vos nez imbéciles ?",C2,C2,C2,C2
-"Suis-je un esclave, acheté et dûment payé, pour ramper sur le ventre devant ces fainéants que vous êtes et étendre à vos pieds tout ce que je fais et tout ce que je sais ?",C2,C2,C2,C2
+"Suis-je un amuseur stipendié, dont on exige tous les soirs qu'il joue une farce intellectuelle sous vos nez imbéciles ",C2,C2,C2,C2
+"Suis-je un esclave, acheté et dûment payé, pour ramper sur le ventre devant ces fainéants que vous êtes et étendre à vos pieds tout ce que je fais et tout ce que je sais ",C2,C2,C2,C2
 "Suite à une série de retards, cet employé a été mis à pied pour une durée indertéminée",C2,C1,C2,C1
 "Telle est l'analyse de l'Union fédérale des consommateurs qui a demandé, mardi 9 août, en dévoilant une synthèse sur le sujet une profonde inflexion dans la gestion des ressources disponibles",C2,C2,C2,C2
 "Tout comme les comportements des animaux sont déterminés par l’instinct, leur environnement ou des déterminations biologiques, les actes et les pensées des hommes le sont eux-mêmes par de multiples facteurs à la fois internes et externes dont on ignore le plus souvent l’existence et la puissance : facteurs d’origine physiologiques, psychologiques, sociales, etc",C2,C2,C2,C2
-"Tout d’abord, on pourrait ne pas désigner le travail  comme une contrainte si on considère que c’est naturel pour l’Homme de se l’imposer librement, et l’Homme n’est-il pas une créature libre ?",C2,C2,C2,C2
-"Tout d’abord, pourquoi ne pas considérer le travail comme une unique contrainte puisque dès son origine, cette activité est désignée comme telle ?",C2,C2,C2,C2
+"Tout d’abord, on pourrait ne pas désigner le travail  comme une contrainte si on considère que c’est naturel pour l’Homme de se l’imposer librement, et l’Homme n’est-il pas une créature libre ",C2,C2,C2,C2
+"Tout d’abord, pourquoi ne pas considérer le travail comme une unique contrainte puisque dès son origine, cette activité est désignée comme telle ",C2,C2,C2,C2
 "Tout homme se sent donc spontanément libre, tout simplement parce qu’il se croit capable de faire des choix de petite ou de grande importance, de prendre des décisions, de petite ou de grande ampleur",C2,C2,C2,C2
 "Toutefois, le seul moyen d’assouvir ses envies de nos jours est de posséder de l’argent",C2,C2,C2,C2
 "Trois français sur quatre sert favorables à ce que les pensions des fonctionnaires soient calculées sur les salaires des dix dernières années et non plus des six derniers mois comme aujourd'hui, contre 25 dans le privé ",C2,C2,C2,C2
@@ -1274,7 +1274,7 @@ J’eusse dû te le confier en amont de notre conversation avec les investisseur
 Il marque en outre l’instant où la dichotomie entre le moi et le monde se résorbe,C2,C2,C2,C2
 "Finalement, il est aussi question de scepticisme, réalisation du stoïcisme, et décriant l’être autre 
 comme subjectif et remettant donc en cause son aspect véridique et absolu",C2,C2,C2,C2
-Bienheureux le quidam que voilà débarrassé de cette peur originelle d’échouer et de faire faux !,C2,C1,C2,C2
+Bienheureux le quidam que voilà débarrassé de cette peur originelle d’échouer et de faire faux ,C2,C1,C2,C2
 "Mais la racine du mal est bel est bien cette façon de penser tendant vers un manichéisme néfaste, néfaste car le 
 respect des opinions divergentes et le débat s’estompent au profit de l’extrémisme et l’uniformisme de la pensée",C2,C2,C2,C2
 "Vous vous retrouverez alors vite attaqués de toutes parts par des personnes ne s’étant pas renseignées sur le 
