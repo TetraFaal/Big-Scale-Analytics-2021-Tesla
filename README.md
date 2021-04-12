@@ -67,9 +67,9 @@ Here's how the repo is organized :
   - Train first model (classification model) :white_check_mark:
   - Evaluate first model :white_check_mark:
   - Test first model :white_check_mark:
-  - Deal with cognates
-- Create a web service (with interface) with flask and AppEngine ⏳
-- Connect the web service to our API ⏳
+  - Deal with cognates ⏳
+- Create a web service (with interface) with flask and AppEngine :white_check_mark:
+- Connect the web service to our API :white_check_mark:
 - Improve our model
 - Improve the UI
 
