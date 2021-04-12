@@ -73,6 +73,8 @@ Here's how the repo is organized :
 - Improve our model
 - Improve the UI
 
+## Web service
 
+You can try the model that was built with Google AutoML by following [this link](https://massive-incline-305713.appspot.com/) to our web app.
 
 The project is iterative, this repository is meant to evolve regulary 
