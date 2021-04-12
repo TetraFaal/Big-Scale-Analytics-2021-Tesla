@@ -63,13 +63,13 @@ Here's how the repo is organized :
 
 - Gather existing informations and scientific articles on the subject :white_check_mark:
 - Build and labelize a dataset containing french sentences :white_check_mark:
-  - Upload our data on AutoML (Google Cloud)
-  - Train first model (classification model)
-  - Evaluate first model
-  - Test first model
+  - Upload our data on AutoML (Google Cloud) :white_check_mark:
+  - Train first model (classification model) :white_check_mark:
+  - Evaluate first model :white_check_mark:
+  - Test first model :white_check_mark:
   - Deal with cognates
-- Create a web service (with interface) with flask and AppEngine
-- Connect the web service to our API
+- Create a web service (with interface) with flask and AppEngine ⏳
+- Connect the web service to our API ⏳
 - Improve our model
 - Improve the UI
 
