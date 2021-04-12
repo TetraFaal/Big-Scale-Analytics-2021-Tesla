@@ -29,15 +29,15 @@ The project is separated in three main milestones :
 The final goal is to provide an API with an UI wich returns the level of a given french sentence.
 
 ## Data 📊
-In order to create our dataset, we had to find specific ressources that are a reference in the labeling of french language. We have used several sources such as grammar exercises, french language learning websites and sources provided by teachers. After collecting 1180 sentences, we objectively assessed their levels under different selection criteria like words, verbs, cognats, grammar and expressions difficulties. 
+In order to create our dataset, we had to find specific ressources that are a reference in the labeling of french language. We have used several sources such as grammar exercises, french language learning websites and sources provided by teachers. After collecting **1224 sentences**, we objectively assessed their levels under different selection criteria like words, verbs, cognats, grammar and expressions difficulties. 
 
 ### Number of sentences per level :
 - A1 : 221
-- A2 : 259
-- B1 : 189
-- B2 : 161
-- C1 : 183
-- C2 : 160
+- A2 : 209
+- B1 : 192
+- B2 : 203
+- C1 : 197
+- C2 : 202
 
 Website sources:
 - French Reading Practice Bilingual reader articles: https://french.kwiziq.com/learn/reading 
