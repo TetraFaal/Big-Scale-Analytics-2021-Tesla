@@ -29,15 +29,15 @@ The project is separated in three main milestones :
 The final goal is to provide an API with an UI wich returns the level of a given french sentence.
 
 ## Data 📊
-In order to create our dataset, we had to find specific ressources that are a reference in the labeling of french language. We have used several sources such as grammar exercises, french language learning websites and sources provided by teachers. After collecting 1180 sentences, we objectively assessed their levels under different selection criteria like words, verbs, cognats, grammar and expressions difficulties. 
+In order to create our dataset, we had to find specific ressources that are a reference in the labeling of french language. We have used several sources such as grammar exercises, french language learning websites and sources provided by teachers. After collecting **1224 sentences**, we objectively assessed their levels under different selection criteria like words, verbs, cognats, grammar and expressions difficulties. 
 
 ### Number of sentences per level :
 - A1 : 221
-- A2 : 259
-- B1 : 189
-- B2 : 161
-- C1 : 183
-- C2 : 160
+- A2 : 209
+- B1 : 192
+- B2 : 203
+- C1 : 197
+- C2 : 202
 
 Website sources:
 - French Reading Practice Bilingual reader articles: https://french.kwiziq.com/learn/reading 
@@ -63,14 +63,16 @@ Here's how the repo is organized :
 
 - Gather existing informations and scientific articles on the subject :white_check_mark:
 - Build and labelize a dataset containing french sentences :white_check_mark:
-- Look for complete datasets with labelized french words and define the weight of each word
-  - Upload our data on AutoML (Google Cloud)
-- Deal with cognates
-- Build a first algorithm
-- Try the algorithm on our dataset
-- Train the model
-- Adapt/ change the model
-- Build a user interface
+  - Upload our data on AutoML (Google Cloud) :white_check_mark:
+  - Train first model (classification model) :white_check_mark:
+  - Evaluate first model :white_check_mark:
+  - Test first model :white_check_mark:
+  - Deal with cognates
+- Create a web service (with interface) with flask and AppEngine ⏳
+- Connect the web service to our API ⏳
+- Improve our model
+- Improve the UI
+
 
 
 The project is iterative, this repository is meant to evolve regulary 
