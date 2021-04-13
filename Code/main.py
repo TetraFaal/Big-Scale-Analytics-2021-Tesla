@@ -43,7 +43,7 @@ def root():
     difficulty = ""
     if request.method == 'POST':
         form_data = request.form.get('textinput')
-        difficulty = get_prediction(form_data, "projects/79067930854/locations/us-central1/models/TCN377099502978334720").payload[0].display_name
+        difficulty = get_prediction(form_data, "projects/79067930854/locations/us-central1/models/TCN23778038462283776").payload[0].display_name
         result = "Your text is labelled as " + difficulty
     return render_template('index.html', result=result, text=form_data)
 
