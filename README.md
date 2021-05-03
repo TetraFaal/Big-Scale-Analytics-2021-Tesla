@@ -1,7 +1,12 @@
 # Big-Scale-Analytics-2021-Tesla <img src="https://user-images.githubusercontent.com/61697398/114187790-b0553000-9948-11eb-8cda-df0721cac5bc.png" width="35" height="30">
 # Text Analytics : Prediction Of French Sentences' CEFR Level
 
+
 Tesla Group's repository for the course project "Big Scale Analytics 2021" (University of Lausanne)
+
+<img src="https://user-images.githubusercontent.com/61697398/116883810-4cabe300-ac26-11eb-9636-4b4438ed9a47.PNG" width="300" height="300">
+
+
 
 This projects aims to predict the CEFR level of a sentence in a foreign language (here French) based on machine learning techniques.
 ## Group member 🧍🧍🧍
@@ -30,6 +35,7 @@ The final goal is to provide an API with an UI wich returns the level of a given
 
 ## Data 📊
 In order to create our dataset, we had to find specific ressources that are a reference in the labeling of french language. We have used several sources such as grammar exercises, french language learning websites and sources provided by teachers. After collecting **1224 sentences**, we objectively assessed their levels under different selection criteria like words, verbs, cognats, grammar and expressions difficulties. 
+![Uploading Capture.PNG…]()
 
 ### Number of sentences per level :
 - A1 : 221
