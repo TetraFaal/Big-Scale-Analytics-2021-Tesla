@@ -4,7 +4,6 @@
 
 Tesla Group's repository for the course project "Big Scale Analytics 2021" (University of Lausanne)
 
-<img src="https://user-images.githubusercontent.com/61697398/116883810-4cabe300-ac26-11eb-9636-4b4438ed9a47.PNG" width="300" height="300">
 
 
 
@@ -83,4 +82,35 @@ Here's how the repo is organized :
 
 You can try the model that was built with Google AutoML by following [this link](https://massive-incline-305713.appspot.com/) to our web app.
 
-The project is iterative, this repository is meant to evolve regulary 
+The project is iterative, this repository is meant to evolve regulary
+
+## Project results and iteration
+
+### First iteration
+
+As a first try using the google cloud autoML, we labbeled the sentences according to their respective level in french. The tool proposed by google calculated automatically using a classification method. 
+
+With a threshold set at 0.5, we have the following results:
+
+- The precision is of 61.68%
+- The recall is of 54.55%
+
+#### Per class score
+
+| Label | Precision | Recall |
+| :---         |     :---:      |          ---: |
+| A1   | 68%     | 72.27%    |
+| A2     | 55.56%       | 50%      |
+| B1   | 66.67%     | 42.11%    |
+| B2     | 58.82%       | 50%      |
+| C1  | 62.50%     | 50%    |
+| C2    | 57.89%       | 50%      |
+
+#### Confusion matrix
+<img src="https://user-images.githubusercontent.com/71492453/116902770-d4501c80-ac3b-11eb-980a-576ee38282f0.PNG" width="330" height="300">
+
+
+### Second iteration
+
+As the first results were not satisfying, we decided to include the cognats in our second iteration.
+
