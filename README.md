@@ -113,4 +113,16 @@ With a threshold set at 0.5, we have the following results:
 ### Second iteration
 
 As the first results were not satisfying, we decided to include the cognats in our second iteration.
+We've worked on Google Colab to pre-process our data, tokenize the sentences, and put the number and whihch cognates each sentence has as a feature.
+
+By using the Google autoML, we reached the following results :
+
+- The precision is of 61.54%
+- The recall is of 46.28%
+
+As a conclusion to this iteration, the way we uploaded the cognates into the dataset resulted in Google autoML not capable of recognizing the weight of the cognates.
+
+### Third iteration
+
+
 
