@@ -120,5 +120,5 @@ By using the Google autoML, we reached the following results :
 - The precision is of 61.54%
 - The recall is of 46.28%
 
-As a conclusion to this iteration, Google autoML is not capable of recognizing the weight of the cognates. 
+As a conclusion to this iteration, the way we uploaded the cognates into the dataset resulted in Google autoML not capable of recognizing the weight of the cognates. 
 
