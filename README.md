@@ -32,9 +32,22 @@ The project is separated in three main milestones :
 
 The final goal is to provide an API with an UI wich returns the level of a given french sentence.
 
+## Methodology :mag:
+
+- Gather existing informations and scientific articles on the subject :white_check_mark:
+- Build and labelize a dataset containing french sentences :white_check_mark:
+  - Upload our data on AutoML (Google Cloud) :white_check_mark:
+  - Train first model (classification model) :white_check_mark:
+  - Evaluate first model :white_check_mark:
+  - Test first model :white_check_mark:
+  - Deal with cognates ⏳
+- Create a web service (with interface) with flask and AppEngine :white_check_mark:
+- Connect the web service to our API :white_check_mark:
+- Improve our model
+- Improve the UI
+
 ## Data 📊
-In order to create our dataset, we had to find specific ressources that are a reference in the labeling of french language. We have used several sources such as grammar exercises, french language learning websites and sources provided by teachers. After collecting **1224 sentences**, we objectively assessed their levels under different selection criteria like words, verbs, cognats, grammar and expressions difficulties. 
-![Uploading Capture.PNG…]()
+In order to create our dataset, we had to find specific ressources that are a reference in the labeling of french language. We have used several sources such as grammar exercises, french language learning websites and sources provided by teachers. After collecting **1224 sentences**, we objectively assessed their levels under different selection criteria like words, verbs, cognats, grammar and expressions difficulties.
 
 ### Number of sentences per level :
 - A1 : 221
@@ -58,33 +71,10 @@ Different tools are used for this project :
 - Google Colab Python Notebooks
 - Google Cloud Services
 
-## Repository organisation 🗂
-Here's how the repo is organized :
-- Data : you'll find [here](https://docs.google.com/spreadsheets/d/1oQGKQZLj6JRbgY-ZQLfClUsq-AHA8LIegtSZvxw6s6A/edit#gid=1203710396) all of the 1224 sentences that composes our  data for the project
-- Code : the python notebooks containing our code
-- ABC-TCF book : our [litterature](https://github.com/TetraFaal/Big-Scale-Analytics-2021-Tesla/tree/main/ABC-TCF%20book) used for the french knowledge test for Quebec.
-
-## Methodology :mag:
-
-- Gather existing informations and scientific articles on the subject :white_check_mark:
-- Build and labelize a dataset containing french sentences :white_check_mark:
-  - Upload our data on AutoML (Google Cloud) :white_check_mark:
-  - Train first model (classification model) :white_check_mark:
-  - Evaluate first model :white_check_mark:
-  - Test first model :white_check_mark:
-  - Deal with cognates ⏳
-- Create a web service (with interface) with flask and AppEngine :white_check_mark:
-- Connect the web service to our API :white_check_mark:
-- Improve our model
-- Improve the UI
-
-## Web service
-
-You can try the model that was built with Google AutoML by following [this link](https://massive-incline-305713.appspot.com/) to our web app.
-
-The project is iterative, this repository is meant to evolve regulary
+##Models
 
 ## Project results and iteration
+###Preprocessing
 
 ### First iteration
 
@@ -123,6 +113,19 @@ By using the Google autoML, we reached the following results :
 As a conclusion to this iteration, the way we uploaded the cognates into the dataset resulted in Google autoML not capable of recognizing the weight of the cognates.
 
 ### Third iteration
+
+## Repository organisation 🗂
+Here's how the repo is organized :
+- Data : you'll find [here](https://docs.google.com/spreadsheets/d/1oQGKQZLj6JRbgY-ZQLfClUsq-AHA8LIegtSZvxw6s6A/edit#gid=1203710396) all of the 1224 sentences that composes our  data for the project
+- Code : the python notebooks containing our code
+- ABC-TCF book : our [litterature](https://github.com/TetraFaal/Big-Scale-Analytics-2021-Tesla/tree/main/ABC-TCF%20book) used for the french knowledge test for Quebec.
+
+## Web service
+
+You can try the model that was built with Google AutoML by following [this link](https://massive-incline-305713.appspot.com/) to our web app.
+
+The project is iterative, this repository is meant to evolve regulary
+
 
 
 
