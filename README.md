@@ -59,7 +59,7 @@ Exemple :
 
 In order to create our dataset, we had to find specific ressources that are a reference in the labeling of french language. We have used several sources such as grammar exercises, french language learning websites and sources provided by teachers. After collecting **1224 sentences**, we objectively assessed their levels under different selection criteria like words, verbs, cognats, grammar and expressions difficulties.
 
-### Number of sentences per level :
+#### Number of sentences per level :
 - A1 : 221
 - A2 : 209
 - B1 : 192
@@ -77,6 +77,15 @@ Book:
 - ABC-TCF Test de Connaissance du Français pour le Québec, Bruno Mègre & Sébastien Portelli, september 2014.
 
 ### Second data set
+This dataset was downloaded from the AIcrowd project associated with our course. It is divided into two parts, train data with **4800 sentences** and test data with **1200 sentences**. The train data will allow us to train the prediction models, so it is important to have a good distribution of labels (target).
+
+#### Labels of the train data :
+- A1 : 800
+- A2 : 800
+- B1 : 800
+- B2 : 800
+- C1 : 800
+- C2 : 800
 
 ## Tools 🛠
 Different tools are used for this project :
