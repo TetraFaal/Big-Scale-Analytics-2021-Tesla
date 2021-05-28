@@ -73,10 +73,13 @@ Different tools are used for this project :
 
 ## Models
 
-## Project results and iteration
-###Preprocessing
+## Preprocessing
 
-### First iteration
+## Project results and iteration
+
+### Iteration
+#### Google Cloud AutoML
+#### First Iteration
 
 As a first try using the google cloud autoML, we labbeled the sentences according to their respective level in french. The tool proposed by google calculated automatically using a classification method. 
 
@@ -85,7 +88,7 @@ With a threshold set at 0.5, we have the following results:
 - The precision is of 61.68%
 - The recall is of 54.55%
 
-#### Per class score
+##### Per class score
 
 | Label | Precision | Recall |
 | :---         |     :---:      |          ---: |
@@ -96,11 +99,11 @@ With a threshold set at 0.5, we have the following results:
 | C1  | 62.50%     | 50%    |
 | C2    | 57.89%       | 50%      |
 
-#### Confusion matrix
+##### Confusion matrix
 <img src="https://user-images.githubusercontent.com/71492453/116902770-d4501c80-ac3b-11eb-980a-576ee38282f0.PNG" width="330" height="300">
 
 
-### Second iteration
+#### Second iteration
 
 As the first results were not satisfying, we decided to include the cognats in our second iteration.
 We've worked on Google Colab to pre-process our data, tokenize the sentences, and put the number and whihch cognates each sentence has as a feature.
@@ -112,7 +115,9 @@ By using the Google autoML, we reached the following results :
 
 As a conclusion to this iteration, the way we uploaded the cognates into the dataset resulted in Google autoML not capable of recognizing the weight of the cognates.
 
-### Third iteration
+#### Third iteration
+
+## CamemBERT - Jupyter Model
 
 ## Repository organisation 🗂
 Here's how the repo is organized :
