@@ -95,7 +95,12 @@ Different tools are used for this project :
 ## Models
 
 ## Preprocessing
+We will use the second train data set to train the three prediction models described in the previous chapter. We will focus on the preprocessing of this data set by combining the following methods:
+- Punctuation: we removed all '!"#$%&()*+,./:;<=>?@\[]_{|}~'] characters from sentences.
+- Digit : we have removed all digits (1-9) from sentences.
 
+## Tokenizer
+In order to tokenise the words in each sentence of our data set, we used the appropriate spacy library for the French language ('fr_core_news_sm'). This will allow our models to better identify the links between words and labels. 
 ## Project results and iteration
 
 ### Iteration
