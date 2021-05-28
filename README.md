@@ -71,7 +71,7 @@ Different tools are used for this project :
 - Google Colab Python Notebooks
 - Google Cloud Services
 
-##Models
+## Models
 
 ## Project results and iteration
 ###Preprocessing
