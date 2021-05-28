@@ -47,6 +47,10 @@ The final goal is to provide an API with an UI wich returns the level of a given
 - Improve the UI
 
 ## Data 📊
+The data used for this project comes from two different sources. The first data set was created by our team based on relevant literary sources. The second, larger than the first, was imposed on us by our teachers. Each dataset contains two columns, the first one contains the sentences to be analysed and the second one represents the label of each sentence (A1, A2, B1, B2, C1, C2).
+
+## First data set
+
 In order to create our dataset, we had to find specific ressources that are a reference in the labeling of french language. We have used several sources such as grammar exercises, french language learning websites and sources provided by teachers. After collecting **1224 sentences**, we objectively assessed their levels under different selection criteria like words, verbs, cognats, grammar and expressions difficulties.
 
 ### Number of sentences per level :
@@ -65,6 +69,8 @@ Website sources:
 
 Book: 
 - ABC-TCF Test de Connaissance du Français pour le Québec, Bruno Mègre & Sébastien Portelli, september 2014.
+
+## Second data set
 
 ## Tools 🛠
 Different tools are used for this project :
