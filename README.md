@@ -118,7 +118,7 @@ As a first try using the google cloud autoML, we labbeled the sentences accordin
 
 With a threshold set at 0.5, we have the following results:
 
-- The accuracy is of 57.85%
+- The accuracy is of 51.88%
 - The precision is of 62.71%
 - The recall is of 38.54%
 
@@ -143,8 +143,9 @@ We've worked on Google Colab to pre-process our data, tokenize the sentences, an
 
 With a threshold set at 0.5, we have the following results:
 
-- The precision is of 61.54%
-- The recall is of 46.28%
+- The accuracy is of 49.79%
+- The precision is of 65.69%
+- The recall is of 27.92%
 
 As a conclusion to this iteration, the way we uploaded the cognates into the dataset resulted in Google autoML not capable of recognizing the weight of the cognates.
 
@@ -156,6 +157,7 @@ For example, if a 10-word sentence has 3 cognates and is labelled as "C2", this 
 
 With a threshold set at 0.6, we have the following results:
 
+- The accuracy is of 53.13%
 - The precision is of 68.18%
 - The recall is of 28.13%
 
