@@ -145,6 +145,16 @@ As a conclusion to this iteration, the way we uploaded the cognates into the dat
 
 ## CamemBERT - Jupyter Model
 
+We there tried to use an existing model called CamemBERT and adapt it to our use case. The main advantage and purpose of why we chose to use this model is that it is already trained on the french language. The model was mainly used to predict sentiments on text analysis.
+
+As Google AutoML was limiting the possibility of personnalisation of the model and was not taking cognates into account correctly, we decided to try different solution to add some weights to the cognates. First, we tried the same dataset that we had used on Google AutoML to compare the results on AICrowd, without touching the Cognates. It resulted that our Camembert Model was more accurate with an accuracy of 53%.
+
+Then, we tried to remove completely the sentences where there were some cognates. The idea was that an english spekaer would understand any given sentence with more ease if a cognates appear, even if the word is labelled as difficult in french. Thus, removing the cognates would not affect the labelisation made by our model only based on the difficulty of a french word that is understandable by a native english speaker. The accuracy of this method was indeed higher with 56.4% and led us to the 4th place in AICrowd.
+
+The last method that was tried is described in the NoteBooks, available from this [link](https://github.com/TetraFaal/Big-Scale-Analytics-2021-Tesla/tree/main/Code/NoteBook)
+
+The reader may want to try his own predictions based on our model, thus we used a package called Pickle to save our pre-trained Model. The link to download it is also located in the NoteBook folder.
+
 ## Repository organisation 🗂
 Here's how the repo is organized :
 - Data : you'll find [here](https://docs.google.com/spreadsheets/d/1oQGKQZLj6JRbgY-ZQLfClUsq-AHA8LIegtSZvxw6s6A/edit#gid=1203710396) all of the 1224 sentences that composes our  data for the project
