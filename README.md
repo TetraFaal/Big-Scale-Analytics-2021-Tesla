@@ -93,6 +93,11 @@ This dataset was downloaded from the AIcrowd project associated with our course.
 Different tools are used for this project :
 - Google Colab Python Notebooks
 - Google Cloud Services
+- Jupyter Python Notebook
+- App Engine
+- Natural Language
+- Flask
+- Pickle
 
 ## Models
 
