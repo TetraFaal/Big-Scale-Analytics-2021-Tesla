@@ -118,8 +118,9 @@ As a first try using the google cloud autoML, we labbeled the sentences accordin
 
 With a threshold set at 0.5, we have the following results:
 
-- The precision is of 61.68%
-- The recall is of 54.55%
+- The accuracy is of 57.85%
+- The precision is of 62.71%
+- The recall is of 38.54%
 
 ##### Per class score
 
@@ -133,8 +134,7 @@ With a threshold set at 0.5, we have the following results:
 | C2    | 57.89%       | 50%      |
 
 ##### Confusion matrix
-<img src="https://user-images.githubusercontent.com/71492453/116902770-d4501c80-ac3b-11eb-980a-576ee38282f0.PNG" width="330" height="300">
-
+<img src="https://user-images.githubusercontent.com/61697398/120072827-ef287c00-c095-11eb-8a30-452dea2fc0af.png" width="330" height="300">
 
 #### Second iteration
 
