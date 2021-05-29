@@ -118,29 +118,29 @@ As a first try using the google cloud autoML, we labbeled the sentences accordin
 
 With a threshold set at 0.5, we have the following results:
 
-- The accuracy is of 51.88%
 - The precision is of 62.71%
+- The recall is of 38.54%
 
 ##### Per class score
 
 | Label | Precision | Recall |
 | :---         |     :---:      |          ---: |
-| A1   | 68%     | 72.27%    |
-| A2     | 55.56%       | 50%      |
-| B1   | 66.67%     | 42.11%    |
-| B2     | 58.82%       | 50%      |
-| C1  | 62.50%     | 50%    |
-| C2    | 57.89%       | 50%      |
+| A1   | 76.06%     | 67.5%    |
+| A2     | 61.36%       | 33.75%      |
+| B1   | 51.61%     | 20%    |
+| B2     | 59.09%       | 32.5%      |
+| C1  | 52.63%     | 25%    |
+| C2    | 62.69%       | 52.5%      |
 
 ##### Confusion matrix
 <img src="https://user-images.githubusercontent.com/61697398/120072827-ef287c00-c095-11eb-8a30-452dea2fc0af.png" width="350" height="300">
 
-- The recall is of 38.54%
+- The accuracy is of 51.88%
 
 #### Second iteration
 
 As the first results were not satisfying, we decided to include the cognats in our second iteration.
-We've worked on Google Colab to pre-process our data, tokenize the sentences, and put the number and whihch cognates each sentence has as a feature.
+We've worked on Google Colab to pre-process our data (punctuation), tokenize the sentences, and put the number and whihch cognates each sentence has as a feature.
 
 With a threshold set at 0.5, we have the following results:
 
@@ -151,12 +151,12 @@ With a threshold set at 0.5, we have the following results:
 
 | Label | Precision | Recall |
 | :---         |     :---:      |          ---: |
-| A1   | 68%     | 72.27%    |
-| A2     | 55.56%       | 50%      |
-| B1   | 66.67%     | 42.11%    |
-| B2     | 58.82%       | 50%      |
-| C1  | 62.50%     | 50%    |
-| C2    | 57.89%       | 50%      |
+| A1   | 76.06%     | 67.5%    |
+| A2     | 65.52%       | 23.75%      |
+| B1   | 42.31%     | 13.75%    |
+| B2     | 66.67%       | 12.5%      |
+| C1  | 60%     | 18.75%    |
+| C2    | 65.79%       | 31.25%      |
 
 ##### Confusion matrix
 <img src="https://user-images.githubusercontent.com/61697398/120073171-893cf400-c097-11eb-8380-2d780fca766b.png" width="350" height="300">
@@ -180,12 +180,12 @@ With a threshold set at 0.6, we have the following results:
 
 | Label | Precision | Recall |
 | :---         |     :---:      |          ---: |
-| A1   | 68%     | 72.27%    |
-| A2     | 55.56%       | 50%      |
-| B1   | 66.67%     | 42.11%    |
-| B2     | 58.82%       | 50%      |
-| C1  | 62.50%     | 50%    |
-| C2    | 57.89%       | 50%      |
+| A1   | 68.33%     | 51.25%    |
+| A2     | 65%       | 32.5%      |
+| B1   | 61.11%     | 13.75%    |
+| B2     | 61.11%       | 13.75%      |
+| C1  | 64%     | 20%    |
+| C2    | 69.77%       | 37.5%      |
 
 ##### Confusion matrix
 <img src="https://user-images.githubusercontent.com/61697398/120072368-dfa83380-c093-11eb-9edb-9c4c99384c2b.PNG" width="350" height="300">
