@@ -39,8 +39,11 @@ The final goal is to provide an API with an UI wich returns the level of a given
   - Upload our data on AutoML (Google Cloud) :white_check_mark:
   - Train first model (classification model) :white_check_mark:
   - Evaluate first model :white_check_mark:
-  - Test first model :white_check_mark:
   - Deal with cognates :white_check_mark:
+- Try different models:
+  - CamemBERT :white_check_mark:
+  - Linear SVC :white_check_mark:
+- Compare models and use a combination of the two best models :white_check_mark:
 - Create a web service (with interface) with flask and AppEngine :white_check_mark:
 - Connect the web service to our API :white_check_mark:
 - Improve our model :white_check_mark:
