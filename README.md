@@ -190,6 +190,24 @@ You can try the model that was built with Google AutoML by following [this link]
 
 The project is iterative, this repository is meant to evolve regulary
 
+## Tasks and Work repartition within the team members
+
+- Adrian
+  - Building Notebooks
+  - Building CamemBERT model
+  - Building other Models
+  - ReadMe contributor
+  
+- Hugo
+  - Google Auto ML main contributor
+  - Text cleaning and preprocessing tasks
+  - ReadMe contributor
+  
+- Igor
+  - App engine builder
+  - Dealing with API's
+  - UI builder
+
 
 
 
