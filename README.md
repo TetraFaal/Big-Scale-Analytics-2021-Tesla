@@ -141,7 +141,7 @@ With a threshold set at 0.5, we have the following results:
 As the first results were not satisfying, we decided to include the cognats in our second iteration.
 We've worked on Google Colab to pre-process our data, tokenize the sentences, and put the number and whihch cognates each sentence has as a feature.
 
-By using the Google autoML, we reached the following results :
+With a threshold set at 0.5, we have the following results:
 
 - The precision is of 61.54%
 - The recall is of 46.28%
@@ -149,6 +149,17 @@ By using the Google autoML, we reached the following results :
 As a conclusion to this iteration, the way we uploaded the cognates into the dataset resulted in Google autoML not capable of recognizing the weight of the cognates.
 
 #### Third iteration
+
+We realised that the models created by AutoML (Natural language) did not know how to interpret tokenised sentences and that the cognates were not presented in an optimal way. Therefore, we performed a new iteration with punctuation and digits processing. We also added weight to each cognate by duplicating them in the sentences where they are present. Thanks to this, the labelling of the sentences will allow us to know the value of the cognates. 
+
+For example, if a 10-word sentence has 3 cognates and is labelled as "C2", this will mean that the identified cognates do not allow for a better understanding of the sentence. In another case, if a sentence with words often labelled as "B1" and with cognates has been labelled as "A2", this will confirm that the identified cognates allow a better understanding of the sentence even if the other words are more difficult. 
+
+With a threshold set at 0.6, we have the following results:
+
+- The precision is of 68.18%
+- The recall is of 28.13%
+
+<img src="https://user-images.githubusercontent.com/61697398/120072368-dfa83380-c093-11eb-9edb-9c4c99384c2b.PNG" width="330" height="300">
 
 ## CamemBERT - Jupyter Model
 
@@ -158,7 +169,8 @@ More information about the model is available [here](https://camembert-model.fr/
 
 As Google AutoML was limiting the possibility of personnalisation of the model and was not letting us to deal with cognates the desired way, we decided to try a different solution to add some weights to the cognates. First, we tried the same dataset that we had used on Google AutoML to compare the results on AICrowd, without touching the Cognates. It resulted that our Camembert Model was more accurate with an accuracy of 53%.
 
-Then, we tried to remove completely the sentences where there were some cognates. The idea was that an english speaker would understand any given sentence with more ease if a cognates appear, even if the word is labelled as difficult in french. Thus, removing the cognates would not affect the labelisation made by our model only based on the difficulty of a french word that is understandable by a native english speaker. The accuracy of this method was indeed higher with 56.4% and led us to the 4th place in AICrowd.
+Then, we tried to rem![Uploading dernier automl matrice.PNG…]()
+ove completely the sentences where there were some cognates. The idea was that an english speaker would understand any given sentence with more ease if a cognates appear, even if the word is labelled as difficult in french. Thus, removing the cognates would not affect the labelisation made by our model only based on the difficulty of a french word that is understandable by a native english speaker. The accuracy of this method was indeed higher with 56.4% and led us to the 4th place in AICrowd.
 
 The last method that was tried is described in the NoteBooks, available from this [link](https://github.com/TetraFaal/Big-Scale-Analytics-2021-Tesla/tree/main/Code/NoteBook)
 
