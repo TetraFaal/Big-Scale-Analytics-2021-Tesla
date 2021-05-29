@@ -157,6 +157,23 @@ The last method that was tried is described in the NoteBooks, available from thi
 
 The reader may want to try his own predictions based on our model, thus we used a package called Pickle to save our pre-trained Model. The link to download it is also located in the NoteBook folder.
 
+## Other Models - Jupyter Model
+
+To diversify and try other methods we have used another notebook containing different models. As those were less accurate than CamemBERT and Google autoML we decided not to upload them directly on this repository and therefore just provide a short summary of the results.
+
+Below is the summary of the tested models and their respective accuracy:
+
+![image](https://user-images.githubusercontent.com/71492453/120068511-57209780-c081-11eb-89d7-bf50a429883d.png)
+
+We decided to further train the linear SVC, which resulted in the following confusion matrix:
+
+![image](https://user-images.githubusercontent.com/71492453/120068581-ae266c80-c081-11eb-84bd-9828b167b180.png)
+
+And finally a classification report: 
+
+![image](https://user-images.githubusercontent.com/71492453/120068607-cac2a480-c081-11eb-95de-858e0f6b97ca.png)
+
+
 ## Repository organisation 🗂
 Here's how the repo is organized :
 - Data : you'll find [here](https://docs.google.com/spreadsheets/d/1oQGKQZLj6JRbgY-ZQLfClUsq-AHA8LIegtSZvxw6s6A/edit#gid=1203710396) all of the 1224 sentences that composes our  data for the project
