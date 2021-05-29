@@ -222,6 +222,15 @@ And finally a classification report:
 ![image](https://user-images.githubusercontent.com/71492453/120068607-cac2a480-c081-11eb-95de-858e0f6b97ca.png)
 
 ## Combining Models and structure of our solution
+We have chosen to take the best iterations of the AutoML (Natural language) model and the CamemBERT model and combine them directly on the App Engine. Through our Web Page and API, we want the prediction of the label of the submitted sentence to be done in 4 steps:
+
+1) Preprocess the sentence according to the prediction models.
+2) Use the two prediction models
+3) Average the two results
+4) Display the final result on our web page
+
+### Architecture schema
+![image](https://user-images.githubusercontent.com/61697398/120075602-49c7d500-c0a2-11eb-8aca-7deb68c30f70.png)
 
 
 ## Repository organisation 🗂
