@@ -226,8 +226,6 @@ And finally a classification report:
 ## Combining Models and structure of our solution
 
 
-
-
 ## Repository organisation 🗂
 Here's how the repo is organized :
 - Data : you'll find [here](https://docs.google.com/spreadsheets/d/1oQGKQZLj6JRbgY-ZQLfClUsq-AHA8LIegtSZvxw6s6A/edit#gid=1203710396) all of the 1224 sentences that composes our  data for the project
