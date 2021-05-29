@@ -43,10 +43,9 @@ The final goal is to provide an API with an UI wich returns the level of a given
 - Try different models:
   - CamemBERT :white_check_mark:
   - Linear SVC :white_check_mark:
-- Compare models and use a combination of the two best models :white_check_mark:
 - Create a web service (with interface) with flask and AppEngine :white_check_mark:
 - Connect the web service to our API :white_check_mark:
-- Improve our model :white_check_mark:
+- Compare models and use a combination of the two best models :white_check_mark:
 - Improve the UI
 
 ## Data 📊
