@@ -145,7 +145,9 @@ As a conclusion to this iteration, the way we uploaded the cognates into the dat
 
 ## CamemBERT - Jupyter Model
 
-We there tried to use an existing model called CamemBERT and adapt it to our use case. The main advantage and purpose of why we chose to use this model is that it is already trained on the french language. The model was mainly used to predict sentiments on text analysis.
+We there tried to use an existing model called CamemBERT and adapt it to our use case. The main advantage and purpose of why we chose to use this model is that it is already trained on the french language. The model was mainly used to predict sentiments on text analysis. 
+
+More information about the model is available [here](https://camembert-model.fr/)
 
 As Google AutoML was limiting the possibility of personnalisation of the model and was not taking cognates into account correctly, we decided to try different solution to add some weights to the cognates. First, we tried the same dataset that we had used on Google AutoML to compare the results on AICrowd, without touching the Cognates. It resulted that our Camembert Model was more accurate with an accuracy of 53%.
 
