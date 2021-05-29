@@ -120,7 +120,6 @@ With a threshold set at 0.5, we have the following results:
 
 - The accuracy is of 51.88%
 - The precision is of 62.71%
-- The recall is of 38.54%
 
 ##### Per class score
 
@@ -134,7 +133,9 @@ With a threshold set at 0.5, we have the following results:
 | C2    | 57.89%       | 50%      |
 
 ##### Confusion matrix
-<img src="https://user-images.githubusercontent.com/61697398/120072827-ef287c00-c095-11eb-8a30-452dea2fc0af.png" width="330" height="300">
+<img src="https://user-images.githubusercontent.com/61697398/120072827-ef287c00-c095-11eb-8a30-452dea2fc0af.png" width="350" height="300">
+
+- The recall is of 38.54%
 
 #### Second iteration
 
@@ -143,9 +144,24 @@ We've worked on Google Colab to pre-process our data, tokenize the sentences, an
 
 With a threshold set at 0.5, we have the following results:
 
-- The accuracy is of 49.79%
 - The precision is of 65.69%
 - The recall is of 27.92%
+
+##### Per class score
+
+| Label | Precision | Recall |
+| :---         |     :---:      |          ---: |
+| A1   | 68%     | 72.27%    |
+| A2     | 55.56%       | 50%      |
+| B1   | 66.67%     | 42.11%    |
+| B2     | 58.82%       | 50%      |
+| C1  | 62.50%     | 50%    |
+| C2    | 57.89%       | 50%      |
+
+##### Confusion matrix
+<img src="https://user-images.githubusercontent.com/61697398/120073171-893cf400-c097-11eb-8380-2d780fca766b.png" width="350" height="300">
+
+- The accuracy is of 49.79%
 
 As a conclusion to this iteration, the way we uploaded the cognates into the dataset resulted in Google autoML not capable of recognizing the weight of the cognates.
 
@@ -157,11 +173,24 @@ For example, if a 10-word sentence has 3 cognates and is labelled as "C2", this 
 
 With a threshold set at 0.6, we have the following results:
 
-- The accuracy is of 53.13%
 - The precision is of 68.18%
 - The recall is of 28.13%
 
-<img src="https://user-images.githubusercontent.com/61697398/120072368-dfa83380-c093-11eb-9edb-9c4c99384c2b.PNG" width="330" height="300">
+##### Per class score
+
+| Label | Precision | Recall |
+| :---         |     :---:      |          ---: |
+| A1   | 68%     | 72.27%    |
+| A2     | 55.56%       | 50%      |
+| B1   | 66.67%     | 42.11%    |
+| B2     | 58.82%       | 50%      |
+| C1  | 62.50%     | 50%    |
+| C2    | 57.89%       | 50%      |
+
+##### Confusion matrix
+<img src="https://user-images.githubusercontent.com/61697398/120072368-dfa83380-c093-11eb-9edb-9c4c99384c2b.PNG" width="350" height="300">
+
+- The accuracy is of 53.13%
 
 ## CamemBERT - Jupyter Model
 
