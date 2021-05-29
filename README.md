@@ -40,10 +40,10 @@ The final goal is to provide an API with an UI wich returns the level of a given
   - Train first model (classification model) :white_check_mark:
   - Evaluate first model :white_check_mark:
   - Test first model :white_check_mark:
-  - Deal with cognates ⏳
+  - Deal with cognates :white_check_mark:
 - Create a web service (with interface) with flask and AppEngine :white_check_mark:
 - Connect the web service to our API :white_check_mark:
-- Improve our model
+- Improve our model :white_check_mark:
 - Improve the UI
 
 ## Data 📊
@@ -149,7 +149,7 @@ We there tried to use an existing model called CamemBERT and adapt it to our use
 
 More information about the model is available [here](https://camembert-model.fr/)
 
-As Google AutoML was limiting the possibility of personnalisation of the model and was not taking cognates into account correctly, we decided to try different solution to add some weights to the cognates. First, we tried the same dataset that we had used on Google AutoML to compare the results on AICrowd, without touching the Cognates. It resulted that our Camembert Model was more accurate with an accuracy of 53%.
+As Google AutoML was limiting the possibility of personnalisation of the model and was not letting us to deal with cognates the desired way, we decided to try a different solution to add some weights to the cognates. First, we tried the same dataset that we had used on Google AutoML to compare the results on AICrowd, without touching the Cognates. It resulted that our Camembert Model was more accurate with an accuracy of 53%.
 
 Then, we tried to remove completely the sentences where there were some cognates. The idea was that an english speaker would understand any given sentence with more ease if a cognates appear, even if the word is labelled as difficult in french. Thus, removing the cognates would not affect the labelisation made by our model only based on the difficulty of a french word that is understandable by a native english speaker. The accuracy of this method was indeed higher with 56.4% and led us to the 4th place in AICrowd.
 
