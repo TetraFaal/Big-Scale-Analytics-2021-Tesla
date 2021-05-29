@@ -99,8 +99,6 @@ Different tools are used for this project :
 - Flask
 - Pickle
 
-## Models
-
 ## Preprocessing
 We will use the second train data set to train the three prediction models described in the previous chapter. We will focus on the preprocessing of this data set by combining the following methods:
 - Punctuation: we removed all '!"#$%&()*+,./:;<=>?@\[]_{|}~'] characters from sentences.
@@ -191,6 +189,8 @@ With a threshold set at 0.6, we have the following results:
 <img src="https://user-images.githubusercontent.com/61697398/120072368-dfa83380-c093-11eb-9edb-9c4c99384c2b.PNG" width="350" height="300">
 
 - The accuracy is of 53.13%
+
+This iteraction is the best of AutoML iterations, we will take it for combining with other models in our API.
 
 ## CamemBERT - Jupyter Model
 
