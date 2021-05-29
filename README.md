@@ -173,6 +173,10 @@ And finally a classification report:
 
 ![image](https://user-images.githubusercontent.com/71492453/120068607-cac2a480-c081-11eb-95de-858e0f6b97ca.png)
 
+##Combining Models and structure of our solution
+
+
+
 
 ## Repository organisation 🗂
 Here's how the repo is organized :
