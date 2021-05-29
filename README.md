@@ -106,11 +106,9 @@ We will use the second train data set to train the three prediction models descr
 
 ## Tokenizer
 In order to tokenise the words in each sentence of our data set, we used the appropriate spacy library for the French language ('fr_core_news_sm'). This will allow our models to better identify the links between words and labels. 
-## Project results and iteration
 
-### Iteration
-#### Google Cloud AutoML
-#### First Iteration
+## Google Cloud AutoML
+### First Iteration
 
 As a first try using the google cloud autoML, we labbeled the sentences according to their respective level in french. The tool proposed by google calculated automatically using a classification method. 
 
@@ -119,7 +117,7 @@ With a threshold set at 0.5, we have the following results:
 - The precision is of 62.71%
 - The recall is of 38.54%
 
-##### Per class score
+#### Per class score
 
 | Label | Precision | Recall |
 | :---         |     :---:      |          ---: |
@@ -130,12 +128,12 @@ With a threshold set at 0.5, we have the following results:
 | C1  | 52.63%     | 25%    |
 | C2    | 62.69%       | 52.5%      |
 
-##### Confusion matrix
+#### Confusion matrix
 <img src="https://user-images.githubusercontent.com/61697398/120072827-ef287c00-c095-11eb-8a30-452dea2fc0af.png" width="350" height="300">
 
 - The accuracy is of 51.88%
 
-#### Second iteration
+### Second iteration
 
 As the first results were not satisfying, we decided to include the cognats in our second iteration.
 We've worked on Google Colab to pre-process our data (punctuation), tokenize the sentences, and put the number and whihch cognates each sentence has as a feature.
@@ -145,7 +143,7 @@ With a threshold set at 0.5, we have the following results:
 - The precision is of 65.69%
 - The recall is of 27.92%
 
-##### Per class score
+#### Per class score
 
 | Label | Precision | Recall |
 | :---         |     :---:      |          ---: |
@@ -156,14 +154,14 @@ With a threshold set at 0.5, we have the following results:
 | C1  | 60%     | 18.75%    |
 | C2    | 65.79%       | 31.25%      |
 
-##### Confusion matrix
+#### Confusion matrix
 <img src="https://user-images.githubusercontent.com/61697398/120073171-893cf400-c097-11eb-8380-2d780fca766b.png" width="350" height="300">
 
 - The accuracy is of 49.79%
 
 As a conclusion to this iteration, the way we uploaded the cognates into the dataset resulted in Google autoML not capable of recognizing the weight of the cognates.
 
-#### Third iteration
+### Third iteration
 
 We realised that the models created by AutoML (Natural language) did not know how to interpret tokenised sentences and that the cognates were not presented in an optimal way. Therefore, we performed a new iteration with punctuation and digits processing. We also added weight to each cognate by duplicating them in the sentences where they are present. Thanks to this, the labelling of the sentences will allow us to know the value of the cognates. 
 
@@ -174,7 +172,7 @@ With a threshold set at 0.6, we have the following results:
 - The precision is of 68.18%
 - The recall is of 28.13%
 
-##### Per class score
+#### Per class score
 
 | Label | Precision | Recall |
 | :---         |     :---:      |          ---: |
@@ -185,7 +183,7 @@ With a threshold set at 0.6, we have the following results:
 | C1  | 64%     | 20%    |
 | C2    | 69.77%       | 37.5%      |
 
-##### Confusion matrix
+#### Confusion matrix
 <img src="https://user-images.githubusercontent.com/61697398/120072368-dfa83380-c093-11eb-9edb-9c4c99384c2b.PNG" width="350" height="300">
 
 - The accuracy is of 53.13%
@@ -200,8 +198,7 @@ More information about the model is available [here](https://camembert-model.fr/
 
 As Google AutoML was limiting the possibility of personnalisation of the model and was not letting us to deal with cognates the desired way, we decided to try a different solution to add some weights to the cognates. First, we tried the same dataset that we had used on Google AutoML to compare the results on AICrowd, without touching the Cognates. It resulted that our Camembert Model was more accurate with an accuracy of 54%.
 
-Then, we tried to rem![Uploading dernier automl matrice.PNG…]()
-ove completely the sentences where there were some cognates. The idea was that an english speaker would understand any given sentence with more ease if a cognates appear, even if the word is labelled as difficult in french. Thus, removing the cognates would not affect the labelisation made by our model only based on the difficulty of a french word that is understandable by a native english speaker. The accuracy of this method was indeed higher with 56.4% and led us to the 4th place in AICrowd.
+Then, we tried to remove completely the sentences where there were some cognates. The idea was that an english speaker would understand any given sentence with more ease if a cognates appear, even if the word is labelled as difficult in french. Thus, removing the cognates would not affect the labelisation made by our model only based on the difficulty of a french word that is understandable by a native english speaker. The accuracy of this method was indeed higher with 56.4% and led us to the 4th place in AICrowd.
 
 The last method that was tried is described in the NoteBooks, available from this [link](https://github.com/TetraFaal/Big-Scale-Analytics-2021-Tesla/tree/main/Code/NoteBook)
 
