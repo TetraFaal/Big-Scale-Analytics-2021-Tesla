@@ -106,7 +106,9 @@ We will use the second train data set to train the prediction models described i
 You can find the python files [here](https://github.com/TetraFaal/Big-Scale-Analytics-2021-Tesla/tree/main/Code/Python%20Colab%20for%20AutoML).
 
 ## Tokenizer
-In order to tokenise the words in each sentence of our data set, we used the appropriate spacy library for the French language ('fr_core_news_sm'). This will allow our models to better identify the links between words and labels. 
+In order to tokenise the words in each sentence of our data set, we used the appropriate spacy library for the French language ('fr_core_news_sm'). This will allow our models to better identify the links between words and labels.
+
+Later on, when using our model named CamemBERT, we used directly the tokenizer provided by CamemBERT.
 
 ## Google Cloud AutoML
 ### First Iteration
