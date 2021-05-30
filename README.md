@@ -46,7 +46,7 @@ The final goal is to provide an API with an UI wich returns the level of a given
 - Create a web service (with interface) with flask and AppEngine :white_check_mark:
 - Connect the web service to our API :white_check_mark:
 - Compare models and use a combination of the two best models :white_check_mark:
-- Improve the UI
+- Improve the UI :white_check_mark:
 
 ## Data 📊
 The data used for this project comes from two different sources. The first data set was created by our team based on relevant literary sources. The second, larger than the first, was imposed on us by our teachers. Each dataset contains two columns, the first one contains the sentences to be analysed and the second one represents the label of each sentence (A1, A2, B1, B2, C1, C2).
