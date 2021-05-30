@@ -4,11 +4,8 @@
 
 Tesla Group's repository for the course project "Big Scale Analytics 2021" (University of Lausanne)
 
-
-
-
 This projects aims to predict the CEFR level of a sentence in a foreign language (here French) based on machine learning techniques.
-## Group member 🧍🧍🧍
+## Group members 🧍🧍🧍
 - Adrian Sestan
 - Igor Ranisavljevic
 - Hugo Macedo Candido
@@ -45,7 +42,7 @@ The final goal is to provide an API with an UI wich returns the level of a given
   - Linear SVC :white_check_mark:
 - Create a web service (with interface) with flask and AppEngine :white_check_mark:
 - Connect the web service to our API :white_check_mark:
-- Compare models and use a combination of the two best models :white_check_mark:
+- Compare models and use the best model :white_check_mark:
 - Improve the UI :white_check_mark:
 
 ## Data 📊
@@ -76,7 +73,7 @@ Website sources:
 - LaPhilo (EXEMPLE DE DISSERTATION EN PHILOSOPHIE): https://la-philosophie.com/exemple-dissertation-philosophique 
 
 Book: 
-- ABC-TCF Test de Connaissance du Français pour le Québec, Bruno Mègre & Sébastien Portelli, september 2014.
+- ABC-TCF Test de Connaissance du Français pour le Québec, Bruno Mègre & Sébastien Portelli, september 2014. 
 
 ### Second data set
 This dataset was downloaded from the AIcrowd project associated with our course. It is divided into two parts, train data with **4800 sentences** and test data with **1200 sentences**. The train data will allow us to train the prediction models, so it is important to have a good distribution of labels (target).
@@ -92,15 +89,12 @@ This dataset was downloaded from the AIcrowd project associated with our course.
 ## Tools 🛠
 Different tools are used for this project :
 - Google Colab Python Notebooks
-- Google Cloud Services
+- Google Cloud Plateform (in particular : App Engine and AutoML Natural Language)
 - Jupyter Python Notebook
-- App Engine
-- Natural Language
-- Flask
-- Pickle
+- Python libraries : Spacy, Torch, Torchvision, Transformers, Keras, Scikit-learn, Pickle and many others...
 
 ## Preprocessing
-We will use the second train data set to train the prediction models described in the previous chapter. We will focus on the preprocessing of this data set by combining the following methods:
+We use the second train data set to train the prediction models described in the previous chapter. We will focus on the preprocessing of this data set by combining the following methods:
 - Punctuation: we removed all '!"#$%&()*+,./:;<=>?@\[]_{|}~'] characters from sentences.
 - Digit : we have removed all digits (1-9) from sentences.
 - You can find the python files [here](https://github.com/TetraFaal/Big-Scale-Analytics-2021-Tesla/tree/main/Code/Python%20Colab%20for%20AutoML).
@@ -112,12 +106,12 @@ Later on, when using our model named CamemBERT, we used directly the tokenizer p
 
 ## Google Cloud AutoML
 Before we start explaining our different iterations, it is important to know that we have used the train dataset from AIcrowd.
-For this first model, we used AutoML Natural Language which allows us to create and deploy custom machine learning models that analyze documents, categorize them, identify their entities or evaluate their attitudes.
+For this first model, we used AutoML Natural Language which allowed us to create and deploy custom machine learning models that analyze documents, categorize them, identify their entities or evaluate their attributes.
 
 Youy can found the three iterations data set [here](https://github.com/TetraFaal/Big-Scale-Analytics-2021-Tesla/tree/main/Data/DataAutoML-Preprocessing).
 ### First Iteration
 
-As a first try using the google cloud autoML, we have simply upload the data into AutoML without having done any preprocessing. The tool proposed by google calculated automatically using a classification method. 
+As a first try using the Google Cloud AutoML, we have simply uploaded the data into AutoML without doing any preprocessing. The tool offered by Google automatically provided a usable model using a classification method. 
 
 With a threshold set at 0.5, we have the following results:
 
@@ -142,8 +136,8 @@ With a threshold set at 0.5, we have the following results:
 
 ### Second iteration
 
-As the first results were not satisfying, we decided to include the cognats in our second iteration.
-We've worked on Google Colab to pre-process our data (punctuation), tokenize the sentences, and put the number and whihch cognates in the sentences where they have been identified.
+As the first results were not satisfying, we decided to include the cognates in our second iteration.
+We've worked on Google Colab to pre-process our data (punctuation), tokenize the sentences, and put the number and which cognates in the sentences where they have been identified. We used two cognates data sets, which can be found [here](https://github.com/TetraFaal/Big-Scale-Analytics-2021-Tesla/tree/main/Data/Cognates)
 
 With a threshold set at 0.5, we have the following results:
 
@@ -166,13 +160,13 @@ With a threshold set at 0.5, we have the following results:
 
 - The accuracy is of 49.79%
 
-As a conclusion to this iteration, the way we uploaded the cognates into the dataset resulted in Google autoML not capable of recognizing the weight of the cognates.
+As a conclusion to this iteration, the way we uploaded the cognates into the dataset resulted in Google AutoML not being capable of recognizing the weight of the cognates.
 
 ### Third iteration
 
-We realised that the models created by AutoML (Natural language) did not know how to interpret tokenised sentences and that the cognates were not presented in an optimal way. Therefore, we performed a new iteration with punctuation and digits processing. We also added weight to each cognate by duplicating them in the sentences where they are present. Thanks to this, the labelling of the sentences will allow us to know the value of the cognates. 
+We realised that the models created by AutoML (Natural language) did not know how to interpret tokenised sentences and that the cognates were not presented in an optimal way. Therefore, we performed a new iteration with punctuation and digits processing. We also added weight to each cognate by duplicating them in the sentences where they are present. Thanks to this, the labelling of the sentences allowed us to know the value of the cognates. 
 
-For example, if a 10-word sentence has 3 cognates and is labelled as "C2", this will mean that the identified cognates do not allow for a better understanding of the sentence. In another case, if a sentence with words often labelled as "B1" and with cognates has been labelled as "A2", this will confirm that the identified cognates allow a better understanding of the sentence even if the other words are more difficult. 
+For example, if a 10-word sentence has 3 cognates labelled as "C2", this will mean that the identified cognates do not offer a better understanding of the sentence. In another case, if a sentence with words often labelled as "B1" with cognates being labelled as "A2", this will confirm that the identified cognates allow a better understanding of the sentence even if the other words are more difficult. 
 
 With a threshold set at 0.6, we have the following results:
 
@@ -199,21 +193,21 @@ This iteraction is the best of AutoML iterations, we will take it for combining 
 
 ## CamemBERT - Jupyter Model
 
-We there tried to use an existing model called CamemBERT and adapt it to our use case. The main advantage and purpose of why we chose to use this model is that it is already trained on the french language. The model was mainly used to predict sentiments on text analysis. 
+We there tried to use an existing model called CamemBERT and adapt it to our use case. The main advantage and purpose of this model is that it is already trained on the french language. The model was mainly used to predict sentiments on text analysis. 
 
 More information about the model is available [here](https://camembert-model.fr/)
 
-As Google AutoML was limiting the possibility of personnalisation of the model and was not letting us to deal with cognates the desired way, we decided to try a different solution to add some weights to the cognates. First, we tried the same dataset that we had used on Google AutoML to compare the results on AICrowd, without touching the Cognates. It resulted that our Camembert Model was more accurate with an accuracy of 54%.
+As Google AutoML was limited in model tunning and was not letting us dealing with cognates the desired way, we decided to try a different solution to add some weights to the cognates. First, we tried the same dataset that we used first in Google AutoML to compare the results on AICrowd, without taking cognates in account. It resulted that our CamemBERT model was more accurate with an accuracy of 54%.
 
-Then, we tried to remove completely the sentences where there were some cognates. The idea was that an english speaker would understand any given sentence with more ease if a cognates appear, even if the word is labelled as difficult in french. Thus, removing the cognates would not affect the labelisation made by our model only based on the difficulty of a french word that is understandable by a native english speaker. The accuracy of this method was indeed higher with 56.4% and led us to the 4th place in AICrowd.
+We then tried to remove cognates from the sentences. The idea behind that is that an english speaker would understand any given sentence with more ease if a cognate appear, even if the word is labelled as difficult in french. Thus, removing the cognates would not affect the labelisation made by our model only based on the difficulty of a french word that is understandable by a native english speaker. The accuracy of this method was indeed higher with 56.4% and led us to the 4th place in AICrowd.
 
-The last method that was tried is described in the NoteBooks, available from this [link](https://github.com/TetraFaal/Big-Scale-Analytics-2021-Tesla/tree/main/Code/NoteBook)
+The last method that was tried is described in the Jupyter notebooks, available from this [link](https://github.com/TetraFaal/Big-Scale-Analytics-2021-Tesla/tree/main/Code/NoteBook)
 
-The reader may want to try his own predictions based on our model, thus we used a package called Pickle to save our pre-trained Model. The link to download it is also located in the NoteBook folder.
+As a user may want to try his own predictions with our model, we used the library [pickle](https://docs.python.org/3/library/pickle.html) to save our pre-trained Model. The link to download it is also located in the notebook folder.
 
 ## Other Models - Jupyter Model
 
-To diversify and try other methods we have used another notebook containing different models. As those were less accurate than CamemBERT and Google autoML we decided not to upload them directly on this repository and therefore just provide a short summary of the results.
+To diversify and try other methods we used another notebook containing different models. As those were less accurate than CamemBERT and Google autoML we decided not to upload them directly on this repository and therefore just provide a short summary of the results.
 
 Below is the summary of the tested models and their respective accuracy:
 
@@ -228,7 +222,9 @@ And finally a classification report:
 ![image](https://user-images.githubusercontent.com/71492453/120068607-cac2a480-c081-11eb-95de-858e0f6b97ca.png)
 
 ## Combining Models and structure of our solution
-We have chosen to take the best iterations of the AutoML (Natural language) model and the CamemBERT model and combine them directly on the App Engine. Through our Web Page and API, we want the prediction of the label of the submitted sentence to be done in 4 steps:
+We have chosen to take the best iterations of the AutoML (Natural language) model and the CamemBERT model and combine them directly on the App Engine, by averaging the results of both prediction based on their respectives accuracies. Unfortunately, the weight of the whole project (with all dependencies) was most likely too big to be deployed on Google Cloud Plateform (going from 34MB to 3.8GB) as the deployment was always aborted by Google. We therefore only deployed the AutoML endpoint. Nevertheless, the project could work locally. 
+
+Through our web service, the prediction of the label of the submitted sentence is done in 4 steps:
 
 1) Preprocess the sentence according to the prediction models.
 2) Use the two prediction models
@@ -248,10 +244,11 @@ Here's how the repo is organized :
 ## Web service
 
 You can try the model that was built with Google AutoML by following [this link](https://massive-incline-305713.appspot.com/) to our web app.
-
-The project is iterative, this repository is meant to evolve regulary
+Here is the [AutoML API endpoint](https://automl.googleapis.com/v1/projects/79067930854/locations/us-central1/models/TCN6320175355386658816:predict) (authentification token needed)
 
 ## Tasks and Work repartition within the team members
+
+Each team member partcipated equally in the realisation of the project
 
 - Adrian
   - Building Notebooks
@@ -265,9 +262,10 @@ The project is iterative, this repository is meant to evolve regulary
   - ReadMe contributor
   
 - Igor
-  - App engine builder
+  - Web service builder (App Engine - Logic and UI)
   - Dealing with API's
-  - UI builder
+  - Managing the project on Google Cloud Plateform (and struggling with Google's support)
+  - (Tearing his hear out on app deployment)
 
 
 
