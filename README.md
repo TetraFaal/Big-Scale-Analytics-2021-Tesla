@@ -111,6 +111,7 @@ In order to tokenise the words in each sentence of our data set, we used the app
 Later on, when using our model named CamemBERT, we used directly the tokenizer provided by CamemBERT.
 
 ## Google Cloud AutoML
+Youy can found the three iterations [here](https://github.com/TetraFaal/Big-Scale-Analytics-2021-Tesla/tree/main/Data/DataAutoML-Preprocessing).
 ### First Iteration
 
 As a first try using the google cloud autoML, we labbeled the sentences according to their respective level in french. The tool proposed by google calculated automatically using a classification method. 
