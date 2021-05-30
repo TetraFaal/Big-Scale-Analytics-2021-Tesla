@@ -103,7 +103,7 @@ Different tools are used for this project :
 We will use the second train data set to train the prediction models described in the previous chapter. We will focus on the preprocessing of this data set by combining the following methods:
 - Punctuation: we removed all '!"#$%&()*+,./:;<=>?@\[]_{|}~'] characters from sentences.
 - Digit : we have removed all digits (1-9) from sentences.
-You can find the python files [here](https://github.com/TetraFaal/Big-Scale-Analytics-2021-Tesla/tree/main/Code/Python%20Colab%20for%20AutoML).
+- You can find the python files [here](https://github.com/TetraFaal/Big-Scale-Analytics-2021-Tesla/tree/main/Code/Python%20Colab%20for%20AutoML).
 
 ## Tokenizer
 In order to tokenise the words in each sentence of our data set, we used the appropriate spacy library for the French language ('fr_core_news_sm'). This will allow our models to better identify the links between words and labels.
@@ -111,7 +111,7 @@ In order to tokenise the words in each sentence of our data set, we used the app
 Later on, when using our model named CamemBERT, we used directly the tokenizer provided by CamemBERT.
 
 ## Google Cloud AutoML
-Youy can found the three iterations [here](https://github.com/TetraFaal/Big-Scale-Analytics-2021-Tesla/tree/main/Data/DataAutoML-Preprocessing).
+Youy can found the three iterations data set [here](https://github.com/TetraFaal/Big-Scale-Analytics-2021-Tesla/tree/main/Data/DataAutoML-Preprocessing).
 ### First Iteration
 
 As a first try using the google cloud autoML, we labbeled the sentences according to their respective level in french. The tool proposed by google calculated automatically using a classification method. 
