@@ -248,7 +248,7 @@ Here is the [AutoML API endpoint](https://automl.googleapis.com/v1/projects/7906
 
 ##Video
 
-You can find the video [here](https://youtu.be/a4nf8B5BqHY)
+You can find the video [here](https://youtu.be/KrqHYU_0U04)
 
 ## Tasks and Work repartition within the team members
 
