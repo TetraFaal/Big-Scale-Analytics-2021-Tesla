@@ -37,8 +37,8 @@ The final goal is to provide an API with an UI wich returns the level of a given
 - Gather existing informations and scientific articles on the subject :white_check_mark:
 - Build and labelize a dataset containing french sentences :white_check_mark:
   - Upload our data on AutoML (Google Cloud) :white_check_mark:
-  - Train first model (classification model) :white_check_mark:
-  - Evaluate first model :white_check_mark:
+  - Train models (classification model) :white_check_mark:
+  - Evaluate models :white_check_mark:
   - Deal with cognates :white_check_mark:
 - Try different models:
   - CamemBERT :white_check_mark:
