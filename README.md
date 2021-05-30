@@ -111,10 +111,13 @@ In order to tokenise the words in each sentence of our data set, we used the app
 Later on, when using our model named CamemBERT, we used directly the tokenizer provided by CamemBERT.
 
 ## Google Cloud AutoML
+Before we start explaining our different iterations, it is important to know that we have used the train dataset from AIcrowd.
+For this first model, we used AutoML Natural Language which allows us to create and deploy custom machine learning models that analyze documents, categorize them, identify their entities or evaluate their attitudes.
+
 Youy can found the three iterations data set [here](https://github.com/TetraFaal/Big-Scale-Analytics-2021-Tesla/tree/main/Data/DataAutoML-Preprocessing).
 ### First Iteration
 
-As a first try using the google cloud autoML, we labbeled the sentences according to their respective level in french. The tool proposed by google calculated automatically using a classification method. 
+As a first try using the google cloud autoML, we have simply upload the data into AutoML without having done any preprocessing. The tool proposed by google calculated automatically using a classification method. 
 
 With a threshold set at 0.5, we have the following results:
 
