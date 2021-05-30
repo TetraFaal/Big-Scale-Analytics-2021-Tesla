@@ -231,7 +231,7 @@ Through our web service, the prediction of the label of the submitted sentence i
 3) Average the two results
 4) Display the final result on our web page
 
-### Architecture schema
+### Architecture schema (as imagined)
 ![image](https://user-images.githubusercontent.com/61697398/120075602-49c7d500-c0a2-11eb-8aca-7deb68c30f70.png)
 
 
