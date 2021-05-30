@@ -235,8 +235,8 @@ We have chosen to take the best iterations of the AutoML (Natural language) mode
 
 ## Repository organisation 🗂
 Here's how the repo is organized :
-- Data : you'll find [here](https://docs.google.com/spreadsheets/d/1oQGKQZLj6JRbgY-ZQLfClUsq-AHA8LIegtSZvxw6s6A/edit#gid=1203710396) all of the 1224 sentences that composes our  data for the project
-- Code : the python notebooks containing our code
+- Data : you'll find [here](https://github.com/TetraFaal/Big-Scale-Analytics-2021-Tesla/blob/main/Data/Dataset_Aicrowd/22fdbaea-415d-4685-8132-1916959ca359_train.csv) all of the 4800 sentences that composes our  data for the project
+- Code : the python [notebooks](https://github.com/TetraFaal/Big-Scale-Analytics-2021-Tesla/tree/main/Code) containing our code
 - ABC-TCF book : our [litterature](https://github.com/TetraFaal/Big-Scale-Analytics-2021-Tesla/tree/main/ABC-TCF%20book) used for the french knowledge test for Quebec.
 
 ## Web service
